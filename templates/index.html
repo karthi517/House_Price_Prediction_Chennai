@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plot Price Predictor</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Plot Price Predictor</h1>
+    <form method="POST" action="/">
+        <label for="location">Location:</label>
+        <select id="location" name="location" required>  
+            <option value="" disabled selected>Select Location</option>
+            <option value="A Nagar">A Nagar</option>
+            <option value="Abhiramapuram">Abhiramapuram</option>
+            <option value="Adambakkam">Adambakkam</option>
+            <option value="Adambakkam Bala Krishna Puram">Adambakkam Bala Krishna Puram</option>
+            <option value="Adambakkam Brindavan Nagar">Adambakkam Brindavan Nagar</option>
+            <option value="Adambakkam Ganesh Nagar">Adambakkam Ganesh Nagar</option>
+            <option value="Adambakkam Sastri Nagar">Adambakkam Sastri Nagar</option>
+            <option value="Adambakkam Selaiyur Madambakkam">Adambakkam Selaiyur Madambakkam</option>
+            <option value="Adambakkam Thiruvallur Nagar">Adambakkam Thiruvallur Nagar</option>
+            <option value="Adhanoor">Adhanoor</option>
+            <option value="Adyar">Adyar</option>
+            <option value="Adyar Bakthavatchalam Nagar">Adyar Bakthavatchalam Nagar</option>
+            <option value="Adyar Kasturba Nagar">Adyar Kasturba Nagar</option>
+            <option value="Aishwarya Nagar">Aishwarya Nagar</option>
+            <option value="Akkarai">Akkarai</option>
+            <option value="Alandur">Alandur</option>
+            <option value="Alwarpet">Alwarpet</option>
+            <option value="Alwarpet Warren Road">Alwarpet Warren Road</option>
+            <option value="Alwarthiru Nagar">Alwarthiru Nagar</option>
+            <option value="Alwarthirunagar">Alwarthirunagar</option>
+            <option value="Ambattur">Ambattur</option>
+            <option value="Ambattur Atthipattu">Ambattur Atthipattu</option>
+            <option value="Ambattur Teachers Colony">Ambattur Teachers Colony</option>
+            <option value="Ambattur Tiruvenkadam Nagar">Ambattur Tiruvenkadam Nagar</option>
+            <option value="Ambattur Vijayalakshmi Puram">Ambattur Vijayalakshmi Puram</option>
+            <option value="Aminjikarai">Aminjikarai</option>
+            <option value="Anakaputhur">Anakaputhur</option>
+            <option value="Anbattur">Anbattur</option>
+            <option value="Anna Nagar">Anna Nagar</option>
+            <option value="Anna Nagar East">Anna Nagar East</option>
+            <option value="Anna Nagar West">Anna Nagar West</option>
+            <option value="Anna Nagar West Extension">Anna Nagar West Extension</option>
+            <option value="Anna Salai">Anna Salai</option>
+            <option value="Annamalai Nagar">Annamalai Nagar</option>
+            <option value="Annanur">Annanur</option>
+            <option value="Arakonam">Arakonam</option>
+            <option value="Arani">Arani</option>
+            <option value="Around Chennai">Around Chennai</option>
+            <option value="Arumandai">Arumandai</option>
+            <option value="Arumbakkam">Arumbakkam</option>
+            <option value="Arumbakkam Kamarager Nagar">Arumbakkam Kamarager Nagar</option>
+            <option value="Arumbakkam Subbarao Nagar">Arumbakkam Subbarao Nagar</option>
+            <option value="Ashok Nagar">Ashok Nagar</option>
+            <option value="Avadi">Avadi</option>
+            <option value="Avadi Dhanalakshmi Nagar">Avadi Dhanalakshmi Nagar</option>
+            <option value="Avadi Indra Nagar">Avadi Indra Nagar</option>
+            <option value="Avadi Ks Nagar">Avadi Ks Nagar</option>
+            <option value="Avadi Vaniyamchavadi">Avadi Vaniyamchavadi</option>
+            <option value="Avadi Vellappanchavadi">Avadi Vellappanchavadi</option>
+            <option value="Ayanambakkam">Ayanambakkam</option>
+            <option value="Ayanavaram">Ayanavaram</option>
+            <option value="Ayappakkam">Ayappakkam</option>
+            <option value="Ayyapanthangal">Ayyapanthangal</option>
+            <option value="Balaji Nagar">Balaji Nagar</option>
+            <option value="Bangalore National Highway">Bangalore National Highway</option>
+            <option value="Besant Nagar">Besant Nagar</option>
+            <option value="Besant Nagar Kalakshetra Colony">Besant Nagar Kalakshetra Colony</option>
+            <option value="Camp Road">Camp Road</option>
+            <option value="Chembakkam">Chembakkam</option>
+            <option value="Chembarambakkam">Chembarambakkam</option>
+            <option value="Chemmancheri">Chemmancheri</option>
+            <option value="Chengalpattu">Chengalpattu</option>
+            <option value="Chengalpattu Acharapakkam">Chengalpattu Acharapakkam</option>
+            <option value="Chengalpattu Nenmeli">Chengalpattu Nenmeli</option>
+            <option value="Chengalpet">Chengalpet</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Chennai Alapakkam">Chennai Alapakkam</option>
+            <option value="Chennai Central R S">Chennai Central R S</option>
+            <option value="Chennai Trichy highway">Chennai Trichy highway</option>
+            <option value="Chetpet">Chetpet</option>
+            <option value="Chettipedu">Chettipedu</option>
+            <option value="Chettipunniyam">Chettipunniyam</option>
+            <option value="Chinna Nolambur">Chinna Nolambur</option>
+            <option value="Chitlapakkam">Chitlapakkam</option>
+            <option value="Chitlapakkam Muthulakshmi Nagar">Chitlapakkam Muthulakshmi Nagar</option>
+            <option value="Chitlapakkam Ramakrishna Nagar">Chitlapakkam Ramakrishna Nagar</option>
+            <option value="Chitlapakkam Venkat Raman Nagar">Chitlapakkam Venkat Raman Nagar</option>
+            <option value="Choolai">Choolai</option>
+            <option value="Choolaimedu">Choolaimedu</option>
+            <option value="Chromepet New Colony Chrompet">Chromepet New Colony Chrompet</option>
+            <option value="Chrompet">Chrompet</option>
+            <option value="Chrompet Chromepet New Colony">Chrompet Chromepet New Colony</option>
+            <option value="Chrompet Lakshmipuram">Chrompet Lakshmipuram</option>
+            <option value="Chrompet Nehru Nagar">Chrompet Nehru Nagar</option>
+            <option value="Chrompet Radhanagar">Chrompet Radhanagar</option>
+            <option value="Cowl Bazar">Cowl Bazar</option>
+            <option value="East Coast Road">East Coast Road</option>
+            <option value="East Tambaram">East Tambaram</option>
+            <option value="Ecr To Marakanam Road">Ecr To Marakanam Road</option>
+            <option value="Egattur">Egattur</option>
+            <option value="Egmore">Egmore</option>
+            <option value="Egmore Ethiraj Salai">Egmore Ethiraj Salai</option>
+            <option value="Ekkaduthangal">Ekkaduthangal</option>
+            <option value="Ennore Port">Ennore Port</option>
+            <option value="Gandhi Nagar">Gandhi Nagar</option>
+            <option value="Gerugambakkam">Gerugambakkam</option>
+            <option value="Gkm Colony">Gkm Colony</option>
+            <option value="Gopalapuram">Gopalapuram</option>
+            <option value="Gowrivalkkam">Gowrivalkkam</option>
+            <option value="Gst Road">Gst Road</option>
+            <option value="Guduvancheri">Guduvancheri</option>
+            <option value="Guindy">Guindy</option>
+            <option value="Hasthinapuram">Hasthinapuram</option>
+            <option value="Heritage Jayendra Nagar Sembakkam">Heritage Jayendra Nagar Sembakkam</option>
+            <option value="Illalur">Illalur</option>
+            <option value="Injambakkam">Injambakkam</option>
+            <option value="Irumbuliyur">Irumbuliyur</option>
+            <option value="Irumbuliyur Arul Nagar">Irumbuliyur Arul Nagar</option>
+            <option value="Irumbuliyur Periyar Nagar">Irumbuliyur Periyar Nagar</option>
+            <option value="Iyyappanthangal">Iyyappanthangal</option>
+            <option value="Iyyappanthangal Numbal">Iyyappanthangal Numbal</option>
+            <option value="Jafferkhanpet">Jafferkhanpet</option>
+            <option value="Jalladianpettai">Jalladianpettai</option>
+            <option value="Jawahar Nagar">Jawahar Nagar</option>
+            <option value="Jawaharlal Nehru Salai">Jawaharlal Nehru Salai</option>
+            <option value="Jeeva Nagar">Jeeva Nagar</option>
+            <option value="K Nagar">K Nagar</option>
+            <option value="Kadambattur">Kadambattur</option>
+            <option value="Kakkaloor">Kakkaloor</option>
+            <option value="Kalavakkam">Kalavakkam</option>
+            <option value="Kallikuppam">Kallikuppam</option>
+            <option value="Kallikuppam Thendra Nagar">Kallikuppam Thendra Nagar</option>
+            <option value="Kalpakkam To Vandalur Road">Kalpakkam To Vandalur Road</option>
+            <option value="Kamarajapuram">Kamarajapuram</option>
+            <option value="Kanathur">Kanathur</option>
+            <option value="Kanchipuram">Kanchipuram</option>
+            <option value="Kandanchavadi">Kandanchavadi</option>
+            <option value="Kandigai">Kandigai</option>
+            <option value="Karapakkam">Karapakkam</option>
+            <option value="Kathirvedu">Kathirvedu</option>
+            <option value="Kattankulathur">Kattankulathur</option>
+            <option value="Kattupakkam">Kattupakkam</option>
+            <option value="Kattupakkam Amman Nagar">Kattupakkam Amman Nagar</option>
+            <option value="Kattupakkam Vijayalakshmi Nagar">Kattupakkam Vijayalakshmi Nagar</option>
+            <option value="Kavankarai">Kavankarai</option>
+            <option value="Kavanur">Kavanur</option>
+            <option value="Kaveripakkam">Kaveripakkam</option>
+            <option value="Kayarambedu">Kayarambedu</option>
+            <option value="Kazhipattur">Kazhipattur</option>
+            <option value="Keelkattalai">Keelkattalai</option>
+            <option value="Keelkattalai Duraisamy Nagar">Keelkattalai Duraisamy Nagar</option>
+            <option value="Keelkattalai Murugan Nagar">Keelkattalai Murugan Nagar</option>
+            <option value="Keelkattalai Rajendra Nagar">Keelkattalai Rajendra Nagar</option>
+            <option value="Keelkattalai Ranga Nagar">Keelkattalai Ranga Nagar</option>
+            <option value="Keelkattalai Thenmozhi Nagar">Keelkattalai Thenmozhi Nagar</option>
+            <option value="Kelambakkam">Kelambakkam</option>
+            <option value="Kelambakkam Vandalur Highway">Kelambakkam Vandalur Highway</option>
+            <option value="Kelambakkam Vandalure">Kelambakkam Vandalure</option>
+            <option value="Kellys">Kellys</option>
+            <option value="Kilkattalai">Kilkattalai</option>
+            <option value="Kilpauk">Kilpauk</option>
+            <option value="Kilpauk Garden Colony">Kilpauk Garden Colony</option>
+            <option value="Kilpauk Samy Nagar">Kilpauk Samy Nagar</option>
+            <option value="Kodambakkam">Kodambakkam</option>
+            <option value="Kodambakkam Rangarajapuram">Kodambakkam Rangarajapuram</option>
+            <option value="Kodamkkam">Kodamkkam</option>
+            <option value="Kodungaiyur">Kodungaiyur</option>
+            <option value="Kodungaiyur Parvathi Nagar">Kodungaiyur Parvathi Nagar</option>
+            <option value="Kolapakkam">Kolapakkam</option>
+            <option value="Kolapakkam Ponnambalam Salai">Kolapakkam Ponnambalam Salai</option>
+            <option value="Kolathur">Kolathur</option>
+            <option value="Kolathur Chittibabu nagar">Kolathur Chittibabu nagar</option>
+            <option value="Kolathur Rajan Nagar">Kolathur Rajan Nagar</option>
+            <option value="Kolathur Sakthi Nagar">Kolathur Sakthi Nagar</option>
+            <option value="Kolathur Sarojini Nagar">Kolathur Sarojini Nagar</option>
+            <option value="Kolathur Viduthalai Nagar">Kolathur Viduthalai Nagar</option>
+            <option value="Kondithope">Kondithope</option>
+            <option value="Korattur">Korattur</option>
+            <option value="Korattur Kamarajar Nagar">Korattur Kamarajar Nagar</option>
+            <option value="Korattur Sri Krishna Nagar">Korattur Sri Krishna Nagar</option>
+            <option value="Kosapet">Kosapet</option>
+            <option value="Kottivakkam">Kottivakkam</option>
+            <option value="Kotturpuram">Kotturpuram</option>
+            <option value="Kovalam">Kovalam</option>
+            <option value="Kovilambakkam">Kovilambakkam</option>
+            <option value="Kovur">Kovur</option>
+            <option value="Kovur Akash Nagar">Kovur Akash Nagar</option>
+            <option value="Koyambedu">Koyambedu</option>
+            <option value="Koyambedu Jai Nagar">Koyambedu Jai Nagar</option>
+            <option value="Koyembedu">Koyembedu</option>
+            <option value="Koyembedu Chinmaya Nagar">Koyembedu Chinmaya Nagar</option>
+            <option value="Kulathur">Kulathur</option>
+            <option value="Kumaran Nagar">Kumaran Nagar</option>
+            <option value="Kumaranchavadi">Kumaranchavadi</option>
+            <option value="Kundrathur">Kundrathur</option>
+            <option value="Kuthambakkam">Kuthambakkam</option>
+            <option value="Lakshmi Nagar">Lakshmi Nagar</option>
+            <option value="M R C Nagar">M R C Nagar</option>
+            <option value="MGR Nagar">MGR Nagar</option>
+            <option value="Madambakkam">Madambakkam</option>
+            <option value="Madambakkam Noothencheri Manickam Nagar">Madambakkam Noothencheri Manickam Nagar</option>
+            <option value="Madambakkam Padmavathy Nagar">Madambakkam Padmavathy Nagar</option>
+            <option value="Madambakkam Shantiniketan Colony">Madambakkam Shantiniketan Colony</option>
+            <option value="Madambakkam Yeswanth Nagar">Madambakkam Yeswanth Nagar</option>
+            <option value="Madanandapuram">Madanandapuram</option>
+            <option value="Madhavaram">Madhavaram</option>
+            <option value="Madhavaram Milk Colony Arul Nagar">Madhavaram Milk Colony Arul Nagar</option>
+            <option value="Madhurandagam">Madhurandagam</option>
+            <option value="Madipakkam">Madipakkam</option>
+            <option value="Madipakkam Kuberan Nagar">Madipakkam Kuberan Nagar</option>
+            <option value="Madipakkam Lakshmi Nagar">Madipakkam Lakshmi Nagar</option>
+            <option value="Madipakkam Ram Nagar">Madipakkam Ram Nagar</option>
+            <option value="Madurantakam">Madurantakam</option>
+            <option value="Maduravayol">Maduravayol</option>
+            <option value="Maduravoyal">Maduravoyal</option>
+            <option value="Maduravoyal Alapakkam">Maduravoyal Alapakkam</option>
+            <option value="Magadu">Magadu</option>
+            <option value="Mahabalipuram">Mahabalipuram</option>
+            <option value="Mahalakshmi Nagar">Mahalakshmi Nagar</option>
+            <option value="Mahalingapuram">Mahalingapuram</option>
+            <option value="Mahapalipuram">Mahapalipuram</option>
+            <option value="Mahindra City">Mahindra City</option>
+            <option value="Mambakkam">Mambakkam</option>
+            <option value="Manali">Manali</option>
+            <option value="Manapakkam">Manapakkam</option>
+            <option value="Manapakkam Giri Gowri Nagar">Manapakkam Giri Gowri Nagar</option>
+            <option value="Mandavelli">Mandavelli</option>
+            <option value="Mangadu">Mangadu</option>
+            <option value="Mangadu Ranganathapuram">Mangadu Ranganathapuram</option>
+            <option value="Mangadu Srinivasa Nagar">Mangadu Srinivasa Nagar</option>
+            <option value="Manimangalam">Manimangalam</option>
+            <option value="Manivakkam">Manivakkam</option>
+            <option value="Mappedu">Mappedu</option>
+            <option value="Mappedu Junction">Mappedu Junction</option>
+            <option value="Maraimalai Nagar">Maraimalai Nagar</option>
+            <option value="Maraimalainagar">Maraimalainagar</option>
+            <option value="Marakkanam">Marakkanam</option>
+            <option value="Mathur">Mathur</option>
+            <option value="Medavakkam">Medavakkam</option>
+            <option value="Medavakkam Jayachandran Nagar">Medavakkam Jayachandran Nagar</option>
+            <option value="Medavakkam Vimala Nagar">Medavakkam Vimala Nagar</option>
+            <option value="Meenambakkam">Meenambakkam</option>
+            <option value="Melmaruvathur">Melmaruvathur</option>
+            <option value="Mettupalayam">Mettupalayam</option>
+            <option value="Minjur">Minjur</option>
+            <option value="Mmda Colony">Mmda Colony</option>
+            <option value="Mogappair">Mogappair</option>
+            <option value="Mogappair East">Mogappair East</option>
+            <option value="Mogappair West">Mogappair West</option>
+            <option value="Moolakadai">Moolakadai</option>
+            <option value="Moulivakkam">Moulivakkam</option>
+            <option value="Mount Road">Mount Road</option>
+            <option value="Mrc Nagar">Mrc Nagar</option>
+            <option value="Mudichur">Mudichur</option>
+            <option value="Mugalivakkam">Mugalivakkam</option>
+            <option value="Muggappair">Muggappair</option>
+            <option value="Muglivakkam">Muglivakkam</option>
+            <option value="Muttukadu">Muttukadu</option>
+            <option value="Mylapore">Mylapore</option>
+            <option value="Nallambakkam">Nallambakkam</option>
+            <option value="Nandanam">Nandanam</option>
+            <option value="Nandanam Cit Nagar">Nandanam Cit Nagar</option>
+            <option value="Nanganallur">Nanganallur</option>
+            <option value="Nanganallur Hindu Colony">Nanganallur Hindu Colony</option>
+            <option value="Nanmangalam">Nanmangalam</option>
+            <option value="Navalur">Navalur</option>
+            <option value="Nedunkundram">Nedunkundram</option>
+            <option value="Neelamangalam">Neelamangalam</option>
+            <option value="Nemilichery">Nemilichery</option>
+            <option value="Nerkumdram">Nerkumdram</option>
+            <option value="Nerkundram">Nerkundram</option>
+            <option value="Nesamani Nagar">Nesamani Nagar</option>
+            <option value="Nesapakkam">Nesapakkam</option>
+            <option value="New Perungalathur">New Perungalathur</option>
+            <option value="Nolambur">Nolambur</option>
+            <option value="North Gopalapuram">North Gopalapuram</option>
+            <option value="Nungambakkam">Nungambakkam</option>
+            <option value="Old Perungalathur">Old Perungalathur</option>
+            <option value="Old Washermenpet">Old Washermenpet</option>
+            <option value="Omr">Omr</option>
+            <option value="Oragadam">Oragadam</option>
+            <option value="Ottiambakkam">Ottiambakkam</option>
+            <option value="P H Road">P H Road</option>
+            <option value="Padapai">Padapai</option>
+            <option value="Padi">Padi</option>
+            <option value="Padur">Padur</option>
+            <option value="Pakkam">Pakkam</option>
+            <option value="Palavakkam">Palavakkam</option>
+            <option value="Palavanthagal">Palavanthagal</option>
+            <option value="Pallavaram">Pallavaram</option>
+            <option value="Pallikaranai">Pallikaranai</option>
+            <option value="Pallikaranai Rajalakshmi Nagar">Pallikaranai Rajalakshmi Nagar</option>
+            <option value="Pammal">Pammal</option>
+            <option value="Pammal Eswaran Nagar">Pammal Eswaran Nagar</option>
+            <option value="Pammal Muthamizh Nagar">Pammal Muthamizh Nagar</option>
+            <option value="Pammal Shankar Nagar">Pammal Shankar Nagar</option>
+            <option value="Pammal Voc Nagar">Pammal Voc Nagar</option>
+            <option value="Panayur">Panayur</option>
+            <option value="Paraniputhur">Paraniputhur</option>
+            <option value="Parrys">Parrys</option>
+            <option value="Paruthipet">Paruthipet</option>
+            <option value="Paruthippattu">Paruthippattu</option>
+            <option value="Patravakam">Patravakam</option>
+            <option value="Pattabiram">Pattabiram</option>
+            <option value="Pattabiram Modern City">Pattabiram Modern City</option>
+            <option value="Pattipulam">Pattipulam</option>
+            <option value="Perambur">Perambur</option>
+            <option value="Peravallur">Peravallur</option>
+            <option value="Periamedu periamet">Periamedu periamet</option>
+            <option value="Periyapalayam">Periyapalayam</option>
+            <option value="Periyapanicheri">Periyapanicheri</option>
+            <option value="Periyar Nagar West">Periyar Nagar West</option>
+            <option value="Perubakkam">Perubakkam</option>
+            <option value="Perugundi">Perugundi</option>
+            <option value="Perumanttunallur">Perumanttunallur</option>
+            <option value="Perumbakkam">Perumbakkam</option>
+            <option value="Perumbakkam Radha Nagar">Perumbakkam Radha Nagar</option>
+            <option value="Perumbakkam Vijaya Nagar">Perumbakkam Vijaya Nagar</option>
+            <option value="Perungalathur">Perungalathur</option>
+            <option value="Perungudi">Perungudi</option>
+            <option value="Perungudi Industrial Area">Perungudi Industrial Area</option>
+            <option value="Perungudi Sai Nagar">Perungudi Sai Nagar</option>
+            <option value="Ponmar">Ponmar</option>
+            <option value="Poonamale High Road">Poonamale High Road</option>
+            <option value="Poonamale Highway">Poonamale Highway</option>
+            <option value="Poonamallee">Poonamallee</option>
+            <option value="Pooncheri">Pooncheri</option>
+            <option value="Porur">Porur</option>
+            <option value="Porur Andal Nagar">Porur Andal Nagar</option>
+            <option value="Porur Bharathidasan Balamurugan Nagar">Porur Bharathidasan Balamurugan Nagar</option>
+            <option value="Porur Lakshmi Nagar Extension">Porur Lakshmi Nagar Extension</option>
+            <option value="Porur Mangala Nagar">Porur Mangala Nagar</option>
+            <option value="Potheri">Potheri</option>
+            <option value="Pozhichallur">Pozhichallur</option>
+            <option value="Pozhichallur Prem Nagar">Pozhichallur Prem Nagar</option>
+            <option value="Pozhichalur Agastheeswarar Nagar">Pozhichalur Agastheeswarar Nagar</option>
+            <option value="Pudupakkam Village">Pudupakkam Village</option>
+            <option value="Pudupet">Pudupet</option>
+            <option value="Pudur">Pudur</option>
+            <option value="Puliyanthope">Puliyanthope</option>
+            <option value="Purasavakkam">Purasavakkam</option>
+            <option value="Purasawalkam">Purasawalkam</option>
+            <option value="Puzhal">Puzhal</option>
+            <option value="Puzhuthivakkam">Puzhuthivakkam</option>
+            <option value="Puzhuthivakkam Ullagaram">Puzhuthivakkam Ullagaram</option>
+            <option value="Puzithivakkam">Puzithivakkam</option>
+            <option value="Ra Puram">Ra Puram</option>
+            <option value="Raja Annamalai Puram">Raja Annamalai Puram</option>
+            <option value="Rajakilpakkam">Rajakilpakkam</option>
+            <option value="Ram Nagar Madipakkam">Ram Nagar Madipakkam</option>
+            <option value="Ram Nagar South">Ram Nagar South</option>
+            <option value="Ram Nagar South Extension">Ram Nagar South Extension</option>
+            <option value="Ramapuram">Ramapuram</option>
+            <option value="Ramapuram Kanadassan Nagar">Ramapuram Kanadassan Nagar</option>
+            <option value="Ramapuram Venkateshwara Nagar">Ramapuram Venkateshwara Nagar</option>
+            <option value="Ranipet">Ranipet</option>
+            <option value="Rathinamangalam">Rathinamangalam</option>
+            <option value="Red Hills">Red Hills</option>
+            <option value="Royapettah">Royapettah</option>
+            <option value="Royapuram">Royapuram</option>
+            <option value="Sadhashivam Nagar">Sadhashivam Nagar</option>
+            <option value="Saidapet">Saidapet</option>
+            <option value="Saidapet East">Saidapet East</option>
+            <option value="Salaigaram">Salaigaram</option>
+            <option value="Saligramam">Saligramam</option>
+            <option value="Saligramam Dasarathapuram">Saligramam Dasarathapuram</option>
+            <option value="Samayapuram">Samayapuram</option>
+            <option value="Santhome">Santhome</option>
+            <option value="Santhosapuram">Santhosapuram</option>
+            <option value="Selaiyur">Selaiyur</option>
+            <option value="Selaiyur Brindavan Nagar">Selaiyur Brindavan Nagar</option>
+            <option value="Selaiyur Rajeshwari Nagar">Selaiyur Rajeshwari Nagar</option>
+            <option value="Selaiyur V G P Srinivasa Nagar">Selaiyur V G P Srinivasa Nagar</option>
+            <option value="Sembakkam">Sembakkam</option>
+            <option value="Sembakkam Heritage Jayendra Nagar">Sembakkam Heritage Jayendra Nagar</option>
+            <option value="Semmancheri">Semmancheri</option>
+            <option value="Senneer Kuppam">Senneer Kuppam</option>
+            <option value="Senthil Nagar">Senthil Nagar</option>
+            <option value="Sevvapet">Sevvapet</option>
+            <option value="Shenoy Nagar">Shenoy Nagar</option>
+            <option value="Sholinganallur">Sholinganallur</option>
+            <option value="Sholinganallur Ezhil Nagar">Sholinganallur Ezhil Nagar</option>
+            <option value="Singaperumal Koil">Singaperumal Koil</option>
+            <option value="Siruseri">Siruseri</option>
+            <option value="Sithalapakkam">Sithalapakkam</option>
+            <option value="Solavaram">Solavaram</option>
+            <option value="Somangalam">Somangalam</option>
+            <option value="Sowcarpet">Sowcarpet</option>
+            <option value="Sozhinganallur">Sozhinganallur</option>
+            <option value="Sreeperamadur">Sreeperamadur</option>
+            <option value="Sriperumbudur">Sriperumbudur</option>
+            <option value="Subhash Nagar">Subhash Nagar</option>
+            <option value="Sunguvachatram">Sunguvachatram</option>
+            <option value="Surapet">Surapet</option>
+            <option value="Surya Nagar">Surya Nagar</option>
+            <option value="T Nagar">T Nagar</option>
+            <option value="Tambaram">Tambaram</option>
+            <option value="Tambaram Mudichur Road">Tambaram Mudichur Road</option>
+            <option value="Tambaram Sanatorium">Tambaram Sanatorium</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Teynampet">Teynampet</option>
+            <option value="Thaiyur">Thaiyur</option>
+            <option value="Thalambur">Thalambur</option>
+            <option value="Thandalam">Thandalam</option>
+            <option value="Thandalam Irandam Kattalai">Thandalam Irandam Kattalai</option>
+            <option value="Thanjavar">Thanjavar</option>
+            <option value="Thilakar Nagar">Thilakar Nagar</option>
+            <option value="Thirukazhukundram">Thirukazhukundram</option>
+            <option value="Thirumalai Nagar">Thirumalai Nagar</option>
+            <option value="Thirumalla Voil">Thirumalla Voil</option>
+            <option value="Thirumazhisai">Thirumazhisai</option>
+            <option value="Thirumudivakkam">Thirumudivakkam</option>
+            <option value="Thirumullaivoyal">Thirumullaivoyal</option>
+            <option value="Thirumullaivoyal Bharathi Nagar">Thirumullaivoyal Bharathi Nagar</option>
+            <option value="Thirumullaivoyal Manikanda Puram">Thirumullaivoyal Manikanda Puram</option>
+            <option value="Thirunagar">Thirunagar</option>
+            <option value="Thiruneermalai Main Road">Thiruneermalai Main Road</option>
+            <option value="Thiruninravur">Thiruninravur</option>
+            <option value="Thiruninravur Anthony Nagar">Thiruninravur Anthony Nagar</option>
+            <option value="Thiruporur">Thiruporur</option>
+            <option value="Thiruttani">Thiruttani</option>
+            <option value="Thiruvalangadu">Thiruvalangadu</option>
+            <option value="Thiruvallalar">Thiruvallalar</option>
+            <option value="Thiruvallore">Thiruvallore</option>
+            <option value="Thiruvalluvar Nagar">Thiruvalluvar Nagar</option>
+            <option value="Thiruvanchery">Thiruvanchery</option>
+            <option value="Thiruvanmiyur">Thiruvanmiyur</option>
+            <option value="Thiruverkadu">Thiruverkadu</option>
+            <option value="Thiruvotriyur">Thiruvotriyur</option>
+            <option value="Thoraipakkam">Thoraipakkam</option>
+            <option value="Tindivanam">Tindivanam</option>
+            <option value="Tiruvallur">Tiruvallur</option>
+            <option value="Tiruvottiyur">Tiruvottiyur</option>
+            <option value="Tiruvottiyur Kaladipet">Tiruvottiyur Kaladipet</option>
+            <option value="Tondiarpet">Tondiarpet</option>
+            <option value="Triplicane">Triplicane</option>
+            <option value="Triplicane Ramnagar">Triplicane Ramnagar</option>
+            <option value="Trunk Road">Trunk Road</option>
+            <option value="Urapakkam">Urapakkam</option>
+            <option value="Urapakkam Ram Nagar">Urapakkam Ram Nagar</option>
+            <option value="Uthandi">Uthandi</option>
+            <option value="Vadapalani">Vadapalani</option>
+            <option value="Vadapalani Alagiri Nagar">Vadapalani Alagiri Nagar</option>
+            <option value="Vadaperumbakkam">Vadaperumbakkam</option>
+            <option value="Valarpuram">Valarpuram</option>
+            <option value="Valasaravakkam">Valasaravakkam</option>
+            <option value="Valasaravakkam Ashtalakshmi Nagar">Valasaravakkam Ashtalakshmi Nagar</option>
+            <option value="Valmiki Nagar">Valmiki Nagar</option>
+            <option value="Vanagaram">Vanagaram</option>
+            <option value="Vandalur">Vandalur</option>
+            <option value="Vandular">Vandular</option>
+            <option value="Varadharajapuram">Varadharajapuram</option>
+            <option value="Veebampattu">Veebampattu</option>
+            <option value="Velachery">Velachery</option>
+            <option value="Velachery AGS Colony">Velachery AGS Colony</option>
+            <option value="Velachery Baby Nagar">Velachery Baby Nagar</option>
+            <option value="Velachery Devi Karumariamman Nagar">Velachery Devi Karumariamman Nagar</option>
+            <option value="Velachery Gangai Nagar">Velachery Gangai Nagar</option>
+            <option value="Velachery Sarathy Nagar">Velachery Sarathy Nagar</option>
+            <option value="Velappanchavadi">Velappanchavadi</option>
+            <option value="Vengadamangalam">Vengadamangalam</option>
+            <option value="Vengaivasal">Vengaivasal</option>
+            <option value="Vengal">Vengal</option>
+            <option value="Vengambakkam">Vengambakkam</option>
+            <option value="Venkatamangalam">Venkatamangalam</option>
+            <option value="Vepampattu">Vepampattu</option>
+            <option value="Vepery">Vepery</option>
+            <option value="Veppampattu">Veppampattu</option>
+            <option value="Veppampet">Veppampet</option>
+            <option value="Vettuvankanni">Vettuvankanni</option>
+            <option value="Villivakkam">Villivakkam</option>
+            <option value="Villivakkam Agathiyar Nagar">Villivakkam Agathiyar Nagar</option>
+            <option value="Villivakkam Baba Nagar">Villivakkam Baba Nagar</option>
+            <option value="Villivakkam Sidco Nagar">Villivakkam Sidco Nagar</option>
+            <option value="Villupuram">Villupuram</option>
+            <option value="Vinayagapuram">Vinayagapuram</option>
+            <option value="Virugambakkam">Virugambakkam</option>
+            <option value="Virugambakkam Swarnambigai Nagar">Virugambakkam Swarnambigai Nagar</option>
+            <option value="Vysarpadi">Vysarpadi</option>
+            <option value="Walajabath">Walajabath</option>
+            <option value="Washermenpet">Washermenpet</option>
+            <option value="West Mambalam">West Mambalam</option>
+            <option value="West Tambaram">West Tambaram</option>
+            <option value="Zameen Pallavaram">Zameen Pallavaram</option>
+            <option value="kattankolathur">kattankolathur</option>
+            <option value="neelankarai">neelankarai</option>
+            <option value="padappai">padappai</option>
+    </select>
+       
+        <br>
+
+        <label for="bedrooms">Bedrooms:</label>
+        <select id="bedrooms" name="bedrooms" required>
+            <option value="" disabled selected>Select Bedrooms</option>
+            <option value="0">1 RK</option>
+            <option value="1">1 BHK</option>
+            <option value="2">2 BHK</option>
+            <option value="3">3 BHK</option>
+            <option value="4">4 BHK</option>
+            <option value="5">5 BHK</option>
+            <option value="6">6 BHK</option>
+            <option value="7">7 BHK</option>
+            <option value="8">8 BHK</option>
+            <option value="9">9 BHK</option>  
+            <option value="10">10 BHK</option>
+            <option value="12">12 BHK</option>
+            <option value="14">14 BHK</option>
+            <option value="15">15 BHK</option>
+            <option value="18">18 BHK</option>
+            <option value="20">20 BHK</option>
+            <option value="30">30 BHK</option>                    
+            <!-- Add more options if needed -->
+        </select>
+        <br>
+
+        <label for="bathrooms">Bathrooms:</label>
+        <select id="bathrooms" name="bathrooms" required>
+            <option value="" disabled selected>Select Bathrooms</option>
+            <option value="1">1 Bath</option>
+            <option value="2">2 Baths</option>
+            <option value="3">3 Baths</option>
+            <option value="4">4 Baths</option>
+            <option value="5">5 Baths</option>
+            <option value="6">6 Baths</option>
+            <option value="7">7 Baths</option>
+            <option value="8">8 Baths</option>
+            <option value="9">9 Baths</option>
+            <option value="10">10 Baths</option>
+            <option value="12">12 Baths</option>
+            <option value="15">15 Baths</option>
+            <option value="17">17 Baths</option>
+            <option value="20">20 Baths</option>
+        </select>
+        <br>
+
+        <label for="area">Area:</label>
+        <input type="text" id="area" name="area" required>
+        <br>
+
+        <label for="carpet_area">Carpet Area:</label>
+        <input type="text" id="carpet_area" name="carpet_area" required>
+        <br>
+
+        <label for="ownership">Ownership:</label>
+        <select id="ownership" name="ownership" required>
+            <option value="" disabled selected>Select ownership</option>
+            <option value="Individual">Individual</option>
+            <option value="Agent">Agent</option>
+            <option value="Builder">Builder</option>
+            <option value="Others">Others</option>
+            <!-- Add more options if needed -->
+        </select>
+        <br>
+
+        <label for="sale_type">Sale Type:</label>
+        <select id="sale_type" name="sale_type" required>
+            <option value="" disabled selected>Select sale type</option>
+            <option value="Resale">Resale</option>
+            <option value="New">New</option>
+            <!-- Add more options if needed -->
+        </select>
+        <br>
+
+        <label for="age_of_the_Property">Age of the Property:</label>
+        <select id="age_of_the_Property" name="age_of_the_Property" required>
+            <option value="" disabled selected>Select Age of the Property</option>
+            <option value="Under Construction">Under Construction</option>
+            <option value="New Construction">New Construction</option>
+            <option value="0 to 5 years">0 to 5 years</option>
+            <option value="5 to 10 years">5 to 10 years</option>
+            <option value="10 to 15 years">10 to 15 years</option>
+            <option value="15 to 20 years">15 to 20 years</option>         
+            <option value="Above 20 years">Above 20 years</option>
+            
+        </select>
+        <br>
+
+        <label for="plot_type">Plot Type:</label>
+        <select id="plot_type" name="plot_type" required>
+            <option value="" disabled selected>Select plot type</option>
+            <option value="Builder Floors">Builder Floors</option>
+            <option value="Farm House">Farm House</option>
+            <option value="House & Villas">House & Villas</option>
+            <option value="Penthouse">Penthouse</option>
+            <option value="Flats">Flats</option>
+        </select>
+        <br>
+
+        <label for="floor">Floor:</label>
+        <select id="floor" name="floor" required>
+            <option value="" disabled selected>Select floor</option>
+            <option value="-1">Basement</option>
+            <option value="0">Ground Floor</option>
+            <option value="1">1st Floor</option>
+            <option value="2">2nd Floor</option>
+            <option value="3">3rd Floor</option>
+            <option value="4">4th Floor</option>
+            <option value="5">5th Floor</option>
+            <option value="6">6th Floor</option>
+            <option value="7">7th Floor</option>
+            <option value="8">8th Floor</option>
+            <option value="10">10th Floor</option>
+            <option value="11">11th Floor</option>
+            <option value="12">12th Floor</option>
+            <option value="13">13th Floor</option>
+            <option value="14">14th Floor</option>
+            <option value="15">15th Floor</option>
+            <option value="27">27th Floor</option>
+            <!-- Add more options if needed -->
+        </select>
+        <br>
+
+        <label for="Furnishing">Furnishing:</label>
+        <select id="Furnishing" name="Furnishing" required>
+            <option value="" disabled selected>Select furnishing</option>
+            <option value="Unfurnished">Unfurnished</option>
+            <option value="Semi-Furnished">Semi-Furnished</option>
+            <option value="Furnished">Furnished</option>
+            <!-- Add more options if needed -->
+        </select>
+        <br>
+
+        <label for="Status">Status:</label>
+        <select id="Status" name="Status" required>
+            <option value="" disabled selected>Select status</option>
+            <option value="Ready to Move">Ready to Move</option>
+            <option value="Under Construction">Under Construction</option>
+            <option value="Upcoming">Upcoming</option>
+        </select>
+        <br>
+
+        <label for="Facing">Facing:</label>
+        <select id="Facing" name="Facing" required>
+            <option value="" disabled selected>Select facing</option>
+            <option value="North">North</option>
+            <option value="East">East</option>
+            <option value="South">South</option>
+            <option value="West">West</option>
+            <option value="North East">North East</option>
+            <option value="North West">North West</option>
+            <option value="South East">South East</option>
+            <option value="South West">South West</option>
+        </select>
+        <br>
+
+        <input type="submit" value="Predict Price">
+    </form>
+
+    {% if predicted_price %}
+    <div id="predicted-price">
+        <h2>Predicted Price: {{ predicted_price }}</h2>
+    </div>
+    {% endif %}
+
+    <script>
+        // JavaScript code for handling form submission and displaying the predicted price
+        // ... (You can add your JavaScript code here, if needed)
+    </script>
+</body>
+</html>

@@ -4,7 +4,7 @@ Perugundi,3,3,1277,1530,Agent,New,New Construction,Builder Floors,1,Unfurnished,
 Mylapore,2,2,600,696,Individual,New,0 to 5 years,Builder Floors,1,Furnished,Ready to Move,South,3033039
 Thiruvanmiyur,4,4,2935,2869,Individual,New,New Construction,Builder Floors,1,Furnished,Ready to Move,East,28755605
 Thiruvalluvar Nagar,4,4,2710,1597,Individual,New,New Construction,Builder Floors,2,Furnished,Ready to Move,North,28755605
-Adambakkam Thiruvallur Nagar,4,4,2710,1597,Individual,New,New Construction,Builder Floors,1,Furnished,Ready to Move,North,49000280
+Adambakkam Thiruvallur Nagar,4,4,2710,1597,Individual,New,New Construction,Builder Floors,1,Furnished,Ready to Move,North,220000000
 Saidapet,2,2,770,733,Individual,New,New Construction,Builder Floors,1,Unfurnished,Ready to Move,North,4421651
 Perambur,2,2,1800,828,Individual,Resale,0 to 5 years,Builder Floors,1,Furnished,Ready to Move,East,9168871
 Perumbakkam,3,2,1427,1142,Builder,New,New Construction,Builder Floors,1,Unfurnished,Ready to Move,East,8220926
@@ -115,7 +115,7 @@ Maduravayol,2,2,1060,800,Builder,New,New Construction,Builder Floors,1,Unfurnish
 Tambaram,2,2,900,825,Builder,New,New Construction,Builder Floors,1,Unfurnished,Ready to Move,North,5340967
 Aminjikarai,3,1,1000,800,Individual,New,New Construction,Builder Floors,1,Semi-Furnished,Ready to Move,South,6798035
 East Coast Road,1,1,550,550,Individual,New,New Construction,Builder Floors,1,Unfurnished,Ready to Move,South,2406982
-Adambakkam,3,2,1272,1040,Individual,Resale,Under Construction,Builder Floors,1,Unfurnished,Ready to Move,East,13500000
+Adambakkam,3,2,1272,1040,Individual,Resale,Under Construction,Builder Floors,1,Unfurnished,Ready to Move,East,23500000
 Ayanavaram,2,2,600,600,Individual,Resale,Above 20 years,Builder Floors,1,Unfurnished,Ready to Move,South,3593155
 Pallavaram,2,2,700,576,Individual,New,Under Construction,Builder Floors,1,Unfurnished,Ready to Move,North,3207974
 Perambur,4,6,1200,1000,Individual,Resale,15 to 20 years,Builder Floors,2,Furnished,Ready to Move,North,7077166
@@ -155,12 +155,12 @@ Ambattur,2,2,877,834,Individual,Resale,0 to 5 years,Builder Floors,1,Unfurnished
 Ayanavaram,2,1,611,328,Individual,Resale,0 to 5 years,Builder Floors,1,Semi-Furnished,Ready to Move,West,3593155
 Nanganallur,2,2,980,613,Builder,New,Under Construction,Builder Floors,1,Unfurnished,Under Construction,North,5340967
 Madipakkam,2,2,741,560,Builder,New,Under Construction,Builder Floors,1,Unfurnished,Ready to Move,East,3207974
-A Nagar,3,2,1280,2003,Individual,New,New Construction,Builder Floors,0,Unfurnished,Ready to Move,East,13500000
+A Nagar,3,2,1280,2003,Individual,New,New Construction,Builder Floors,0,Unfurnished,Ready to Move,East,23500000
 Muglivakkam,2,2,956,100,Individual,New,New Construction,Builder Floors,2,Semi-Furnished,Ready to Move,South,5340967
 Chrompet,2,2,860,805,Agent,New,New Construction,Builder Floors,1,Unfurnished,Ready to Move,East,5783338
 Saidapet,2,2,1200,733,Individual,New,New Construction,Builder Floors,1,Unfurnished,Ready to Move,North,5340967
 Thirumalai Nagar,2,2,1640,1632,Individual,New,0 to 5 years,Builder Floors,1,Unfurnished,Ready to Move,East,18004354
-Adyar,3,3,3300,3062,Builder,New,New Construction,Builder Floors,4,Unfurnished,Ready to Move,North,49000280
+Adyar,3,3,3300,3062,Builder,New,New Construction,Builder Floors,4,Unfurnished,Ready to Move,North,220000000
 Tambaram,2,2,1100,825,Individual,New,Under Construction,Builder Floors,1,Unfurnished,Ready to Move,East,5340967
 Villivakkam,2,2,500,400,Builder,Resale,Type,Builder Floors,1,Furnished,Ready to Move,North,3033039
 Mahindra City,3,2,150,150,Agent,New,10 to 15 years,Builder Floors,1,Semi-Furnished,Under Construction,North West,2600000
@@ -179,7 +179,7 @@ Porur,2,2,966,646,Individual,New,New Construction,Builder Floors,1,Unfurnished,R
 Porur,2,2,923,646,Individual,New,New Construction,Builder Floors,1,Unfurnished,Ready to Move,North,5340967
 Pooncheri,2,2,600,2869,Individual,New,New Construction,Builder Floors,2,Furnished,Ready to Move,North,3033039
 Thalambur,6,4,4000,828,Individual,Resale,0 to 5 years,Builder Floors,1,Furnished,Ready to Move,East,74180500
-Kadambattur,2,2,174240,2040,Individual,New,Under Construction,Builder Floors,2,Semi-Furnished,Under Construction,North,91500000
+Kadambattur,2,2,174240,2040,Individual,New,Under Construction,Builder Floors,2,Semi-Furnished,Under Construction,North,43000000
 Sriperumbudur,2,2,8045,640,Individual,New,New Construction,Builder Floors,1,Unfurnished,Ready to Move,East,74180500
 Red Hills,1,1,1500,621,Builder,New,Under Construction,Builder Floors,1,Unfurnished,Ready to Move,North,1734780
 Poonamale High Road,2,2,8400,805,Individual,New,New Construction,Builder Floors,2,Unfurnished,Ready to Move,East,28221518
@@ -187,14 +187,14 @@ MGR Nagar,2,2,750,500,Builder,New,New Construction,Builder Floors,1,Unfurnished,
 Oragadam,3,2,2400,880,Builder,New,New Construction,Builder Floors,1,Furnished,Ready to Move,South,7200
 East Coast Road,4,4,10500,1153,Builder,New,New Construction,Builder Floors,1,Unfurnished,Ready to Move,East,4826600
 Manapakkam,1,1,355,871,Builder,New,Under Construction,Builder Floors,1,Unfurnished,Under Construction,West,1546064
-Sriperumbudur,2,2,239580,595,Individual,Resale,0 to 5 years,Builder Floors,1,Unfurnished,Ready to Move,South,930250000
+Sriperumbudur,2,2,239580,595,Individual,Resale,0 to 5 years,Builder Floors,1,Unfurnished,Ready to Move,South,43000000
 Anakaputhur,1,2,600,596,Builder,New,0 to 5 years,Builder Floors,1,Unfurnished,Ready to Move,East,2406982
 Alwarpet,2,2,1500,392,Builder,New,Under Construction,Builder Floors,1,Semi-Furnished,Ready to Move,East,13016328
 Valasaravakkam,2,2,860,2135,Individual,New,New Construction,Builder Floors,1,Semi-Furnished,Ready to Move,North,5783338
 Arakonam,2,2,1200,1100,Individual,Resale,5 to 10 years,Builder Floors,1,Unfurnished,Ready to Move,West,5340967
 Sriperumbudur,2,2,7000,330,Individual,New,10 to 15 years,Builder Floors,2,Furnished,Ready to Move,North,37492000
 Nanmangalam,2,2,1185,800,Builder,New,New Construction,Builder Floors,1,Furnished,Ready to Move,North,5340967
-Marakkanam,2,2,261360,81500,Individual,New,Under Construction,Builder Floors,1,Unfurnished,Ready to Move,North,91500000
+Marakkanam,2,2,261360,81500,Individual,New,Under Construction,Builder Floors,1,Unfurnished,Ready to Move,North,43000000
 Medavakkam,2,2,1200,1020,Individual,New,5 to 10 years,Builder Floors,1,Semi-Furnished,Ready to Move,East,5340967
 Porur,2,2,845,780,Individual,New,New Construction,Builder Floors,2,Semi-Furnished,Ready to Move,West,4421651
 Ramapuram,2,2,1238,627,Builder,New,New Construction,Builder Floors,1,Semi-Furnished,Ready to Move,East,8005901
@@ -218,7 +218,7 @@ Padapai,1,1,520,4200,Individual,Resale,0 to 5 years,House & Villas,0,Semi-Furnis
 Kolathur,3,3,2200,670,Individual,New,New Construction,House & Villas,1,Semi-Furnished,Ready to Move,North,9168871
 Kovur,2,2,750,985,Individual,Resale,0 to 5 years,House & Villas,0,Semi-Furnished,Ready to Move,North,3207974
 Porur,2,2,1000,800,Builder,New,New Construction,House & Villas,0,Semi-Furnished,Ready to Move,North East,5340967
-Thiruvanmiyur,4,4,2600,430,Builder,New,New Construction,House & Villas,0,Unfurnished,Ready to Move,East,27000000
+Thiruvanmiyur,4,4,2600,430,Builder,New,New Construction,House & Villas,0,Unfurnished,Ready to Move,East,6470737
 Pallavaram,2,2,750,4500,Individual,Resale,Above 20 years,House & Villas,1,Unfurnished,Ready to Move,North,3207974
 Porur,3,3,1400,680,Individual,New,New Construction,House & Villas,0,Semi-Furnished,Ready to Move,East,8220926
 Porur,2,2,750,814,Individual,New,0 to 5 years,House & Villas,0,Semi-Furnished,Ready to Move,East,3207974
@@ -226,7 +226,7 @@ Avadi,4,4,1200,572,Builder,New,5 to 10 years,House & Villas,0,Semi-Furnished,Rea
 Avadi,4,3,1200,430,Individual,New,5 to 10 years,House & Villas,0,Semi-Furnished,Ready to Move,East,6798035
 Kovur,2,2,650,480,Builder,New,New Construction,House & Villas,0,Unfurnished,Ready to Move,North West,3207974
 Avadi,2,2,645,1100,Individual,New,0 to 5 years,House & Villas,0,Furnished,Ready to Move,North,3207974
-Avadi,1,2,645,800,Individual,New,0 to 5 years,House & Villas,-1,Semi-Furnished,Upcoming,East,43200000
+Avadi,1,2,645,800,Individual,New,0 to 5 years,House & Villas,-1,Semi-Furnished,Upcoming,East,4900000
 Porur,2,2,850,660,Builder,New,Under Construction,House & Villas,0,Unfurnished,Under Construction,South East,3492296
 Guduvancheri,5,5,2500,800,Individual,New,New Construction,House & Villas,0,Unfurnished,Ready to Move,South,37638712
 Anna Nagar,2,2,800,2575,Individual,Resale,New Construction,House & Villas,0,Furnished,Ready to Move,East,3492296
@@ -235,15 +235,15 @@ Thiruninravur,3,3,1600,999,Builder,New,New Construction,House & Villas,1,Furnish
 Pallavaram,3,3,1685,1300,Individual,Resale,0 to 5 years,House & Villas,0,Unfurnished,Ready to Move,East,55263002
 Sembakkam,2,2,1600,1000,Builder,New,New Construction,House & Villas,1,Unfurnished,Ready to Move,South,18004354
 East Coast Road,5,6,5071,150,Individual,New,New Construction,House & Villas,0,Unfurnished,Under Construction,East,1752766
-Kelambakkam,3,4,2500,700,Builder,New,New Construction,House & Villas,0,Semi-Furnished,Ready to Move,South,17500000
+Kelambakkam,3,4,2500,700,Builder,New,New Construction,House & Villas,0,Semi-Furnished,Ready to Move,South,6586250
 Iyyappanthangal,2,2,1400,640,Individual,Resale,Under Construction,House & Villas,0,Unfurnished,Ready to Move,East,8220926
 Nanganallur,3,3,2250,240,Individual,New,0 to 5 years,House & Villas,1,Unfurnished,Ready to Move,East,12136114
-Sadhashivam Nagar,2,2,2400,415,Others,New,New Construction,House & Villas,0,Furnished,Ready to Move,North East,7200
+Sadhashivam Nagar,2,2,2400,415,Others,New,New Construction,House & Villas,0,Furnished,Ready to Move,North East,4764000
 Oragadam,3,2,1050,589,Builder,New,0 to 5 years,House & Villas,1,Unfurnished,Under Construction,South,6798035
 Porur,2,3,1100,396,Builder,New,New Construction,House & Villas,0,Unfurnished,Ready to Move,East,5340967
 Madambakkam,3,4,1670,2422,Individual,Resale,Under Construction,House & Villas,0,Unfurnished,Ready to Move,East,11605979
-Balaji Nagar,5,4,2222,680,Builder,New,Under Construction,House & Villas,0,Unfurnished,Upcoming,North,11635000
-Raja Annamalai Puram,7,7,13500,650,Agent,Resale,Under Construction,House & Villas,1,Semi-Furnished,Ready to Move,South,209996682
+Balaji Nagar,5,4,2222,680,Builder,New,Under Construction,House & Villas,0,Unfurnished,Upcoming,North,33900000
+Raja Annamalai Puram,7,7,13500,650,Agent,Resale,Under Construction,House & Villas,1,Semi-Furnished,Ready to Move,South,1200000000
 Valasaravakkam,4,4,2950,2160,Individual,New,10 to 15 years,House & Villas,1,Semi-Furnished,Under Construction,North,28755605
 Guduvancheri,2,2,780,600,Builder,New,0 to 5 years,House & Villas,0,Unfurnished,Ready to Move,South,4464305
 Kolathur,2,2,1200,1020,Individual,New,New Construction,House & Villas,1,Furnished,Ready to Move,East,5340967
@@ -258,7 +258,7 @@ Kolathur,2,2,900,650,Builder,New,New Construction,House & Villas,0,Unfurnished,R
 Guduvancheri,3,2,928,150,Individual,New,Under Construction,House & Villas,0,Furnished,Under Construction,South East,6798035
 Porur,2,3,1200,200,Individual,New,Under Construction,House & Villas,0,Unfurnished,Under Construction,South East,5340967
 Veppampattu,2,2,640,2090880,Individual,New,New Construction,House & Villas,0,Semi-Furnished,Ready to Move,North East,3833339
-West Mambalam,6,6,2700,1100,Individual,New,New Construction,House & Villas,0,Furnished,Ready to Move,East,7200
+West Mambalam,6,6,2700,1100,Individual,New,New Construction,House & Villas,0,Furnished,Ready to Move,East,4764000
 Guduvancheri,2,2,878,660,Individual,New,New Construction,House & Villas,0,Furnished,Under Construction,South,3492296
 Porur,2,2,1200,1300,Individual,New,New Construction,House & Villas,0,Semi-Furnished,Ready to Move,East,5340967
 Porur,2,3,1200,1020,Individual,Resale,0 to 5 years,House & Villas,0,Furnished,Ready to Move,North,5340967
@@ -303,12 +303,12 @@ Tambaram,2,2,750,2803,Agent,Resale,0 to 5 years,House & Villas,0,Furnished,Ready
 Kolathur,2,3,1200,736,Individual,New,0 to 5 years,House & Villas,0,Unfurnished,Ready to Move,South,5340967
 Kattupakkam,2,3,1800,700,Individual,Resale,0 to 5 years,House & Villas,0,Unfurnished,Ready to Move,East,9168871
 Mogappair West,1,1,390,2400,Agent,Resale,New Construction,House & Villas,-1,Furnished,Ready to Move,East,1368843
-neelankarai,3,3,2600,1200,Individual,Resale,0 to 5 years,House & Villas,1,Furnished,Ready to Move,East,47485790
+neelankarai,3,3,2600,1200,Individual,Resale,0 to 5 years,House & Villas,1,Furnished,Ready to Move,East,40008000
 Pudupakkam Village,3,4,3000,639,Individual,Resale,0 to 5 years,House & Villas,0,Unfurnished,Ready to Move,North,28221518
-Avadi,2,1,798,1240,Individual,Resale,0 to 5 years,House & Villas,0,Semi-Furnished,Upcoming,East,3800000
+Avadi,2,1,798,1240,Individual,Resale,0 to 5 years,House & Villas,0,Semi-Furnished,Upcoming,East,43200000
 padappai,3,2,956,592,Individual,New,Under Construction,House & Villas,0,Furnished,Ready to Move,North,6798035
 Poonamale High Road,2,2,1000,1000,Agent,New,5 to 10 years,House & Villas,0,Unfurnished,Ready to Move,East,5340967
-Vandalur,5,7,6825,800,Builder,New,0 to 5 years,House & Villas,1,Unfurnished,Under Construction,South,59962200
+Vandalur,5,7,6825,800,Builder,New,0 to 5 years,House & Villas,1,Unfurnished,Under Construction,South,20000000
 Tambaram,3,2,956,1200,Individual,New,Above 20 years,House & Villas,3,Semi-Furnished,Ready to Move,East,6798035
 Chettipunniyam,2,2,776,523,Individual,Resale,Above 20 years,House & Villas,1,Semi-Furnished,Ready to Move,West,4464305
 padappai,3,2,954,396,Individual,New,New Construction,House & Villas,-1,Unfurnished,Under Construction,East,6798035
@@ -338,7 +338,7 @@ Iyyappanthangal,2,2,1100,1196,Individual,Resale,Under Construction,House & Villa
 Keelkattalai Duraisamy Nagar,3,3,1200,15200,Individual,New,0 to 5 years,House & Villas,0,Semi-Furnished,Ready to Move,South,6798035
 Perambur,2,2,1400,1000,Builder,New,New Construction,House & Villas,0,Furnished,Ready to Move,South,8220926
 Anna Nagar,3,4,3000,1222,Individual,New,Under Construction,House & Villas,2,Unfurnished,Ready to Move,East,28755605
-Vadapalani,4,5,2400,100,Individual,New,0 to 5 years,House & Villas,1,Semi-Furnished,Under Construction,East,27000000
+Vadapalani,4,5,2400,100,Individual,New,0 to 5 years,House & Villas,1,Semi-Furnished,Under Construction,East,13964714
 Tambaram Mudichur Road,4,5,1650,1400,Builder,New,0 to 5 years,House & Villas,2,Unfurnished,Under Construction,East,8722378
 Sithalapakkam,2,3,900,800,Builder,New,Under Construction,House & Villas,0,Unfurnished,Under Construction,North,5340967
 Madipakkam,3,2,1800,1551,Individual,Resale,0 to 5 years,House & Villas,-1,Unfurnished,Ready to Move,South,11605979
@@ -352,7 +352,7 @@ Valasaravakkam,4,4,2500,521,Individual,New,10 to 15 years,House & Villas,1,Unfur
 Kundrathur,2,2,800,1262,Individual,New,New Construction,House & Villas,0,Furnished,Under Construction,North West,3492296
 Anakaputhur,2,3,1100,1288,Individual,New,0 to 5 years,House & Villas,0,Semi-Furnished,Ready to Move,East,5340967
 Mangadu,2,3,1150,500,Agent,New,0 to 5 years,House & Villas,0,Semi-Furnished,Ready to Move,East,5340967
-Villivakkam,2,2,2600,346,Individual,Resale,0 to 5 years,House & Villas,0,Semi-Furnished,Ready to Move,North,480000
+Villivakkam,2,2,2600,346,Individual,Resale,0 to 5 years,House & Villas,0,Semi-Furnished,Ready to Move,North,7938000
 Gowrivalkkam,4,4,1904,1200,Builder,New,New Construction,House & Villas,1,Unfurnished,Ready to Move,North,11605979
 Tambaram,2,2,625,1663,Individual,New,New Construction,House & Villas,0,Furnished,Under Construction,North West,1974663
 Muggappair,3,2,624,650,Individual,Resale,5 to 10 years,House & Villas,0,Unfurnished,Ready to Move,West,1974663
@@ -363,7 +363,7 @@ Ra Puram,8,8,14898,600,Individual,New,New Construction,House & Villas,0,Unfurnis
 Madambakkam,2,3,1100,150,Individual,New,Under Construction,House & Villas,1,Unfurnished,Under Construction,South,5340967
 Guduvancheri,2,2,813,550,Individual,New,Under Construction,House & Villas,0,Furnished,Ready to Move,East,3492296
 Triplicane,1,1,700,1008,Individual,Resale,New Construction,House & Villas,0,Semi-Furnished,Ready to Move,East,3207974
-Thiruneermalai Main Road,4,3,8000,600,Individual,New,0 to 5 years,House & Villas,1,Furnished,Under Construction,East,715000
+Thiruneermalai Main Road,4,3,8000,600,Individual,New,0 to 5 years,House & Villas,1,Furnished,Under Construction,East,7003200
 Arumbakkam,3,3,1340,600,Individual,New,Under Construction,House & Villas,0,Unfurnished,Ready to Move,East,8220926
 East Coast Road,2,2,900,850,Individual,New,Under Construction,House & Villas,0,Semi-Furnished,Under Construction,North,5340967
 Pallikaranai,3,3,1850,1000,Individual,New,New Construction,House & Villas,0,Unfurnished,Ready to Move,South East,18004354
@@ -376,14 +376,14 @@ Mangadu,3,3,1579,1200,Builder,New,New Construction,House & Villas,1,Semi-Furnish
 Omr,2,2,1260,740,Individual,New,New Construction,House & Villas,1,Unfurnished,Ready to Move,East,8220926
 Palavakkam,3,3,3000,600,Individual,New,0 to 5 years,House & Villas,0,Semi-Furnished,Ready to Move,North,21400011
 East Coast Road,3,3,1800,850,Individual,New,New Construction,House & Villas,0,Semi-Furnished,Ready to Move,North East,13016328
-Raja Annamalai Puram,7,8,14938,650,Individual,New,Under Construction,House & Villas,1,Semi-Furnished,Ready to Move,South,209996682
+Raja Annamalai Puram,7,8,14938,650,Individual,New,Under Construction,House & Villas,1,Semi-Furnished,Ready to Move,South,1200000000
 Tambaram,3,3,1400,1000,Individual,New,Under Construction,House & Villas,1,Unfurnished,Under Construction,East,8220926
 Jafferkhanpet,6,6,3800,793,Builder,New,Under Construction,House & Villas,0,Unfurnished,Under Construction,East,26074461
 Kanathur,2,2,2400,1050,Individual,Resale,5 to 10 years,House & Villas,0,Unfurnished,Ready to Move,West,37638712
 Red Hills,1,1,500,1800,Individual,Resale,Type,House & Villas,0,Unfurnished,Ready to Move,South,1974663
 Valasaravakkam,4,4,2565,100,Builder,New,10 to 15 years,House & Villas,0,Furnished,Ready to Move,North,40008000
 Oragadam,2,2,1136,633,Individual,Resale,0 to 5 years,House & Villas,1,Unfurnished,Ready to Move,East,5340967
-Adambakkam Ganesh Nagar,2,2,1350,775,Individual,New,0 to 5 years,House & Villas,0,Unfurnished,Ready to Move,South,13500000
+Adambakkam Ganesh Nagar,2,2,1350,775,Individual,New,0 to 5 years,House & Villas,0,Unfurnished,Ready to Move,South,23500000
 Porur,3,4,2000,3200,Others,Resale,0 to 5 years,House & Villas,0,Furnished,Ready to Move,East,18004354
 Karapakkam,3,3,2250,2000,Individual,Resale,Under Construction,House & Villas,1,Unfurnished,Ready to Move,East,11605979
 Porur,4,2,4800,800,Builder,New,10 to 15 years,House & Villas,1,Unfurnished,Ready to Move,North,28221518
@@ -408,12 +408,12 @@ Thoraipakkam,4,4,2535,853,Builder,New,0 to 5 years,House & Villas,0,Furnished,Re
 Injambakkam,3,4,4000,600,Individual,New,New Construction,House & Villas,2,Furnished,Ready to Move,East,5675333
 Perambur,4,3,1200,3200,Agent,Resale,15 to 20 years,House & Villas,0,Furnished,Ready to Move,North West,6798035
 Virugambakkam,2,1,600,1050,Individual,Resale,10 to 15 years,House & Villas,2,Unfurnished,Ready to Move,North East,5332700
-Perungalathur,3,3,800,1550,Individual,Resale,New Construction,House & Villas,0,Semi-Furnished,Upcoming,North,3800000
+Perungalathur,3,3,800,1550,Individual,Resale,New Construction,House & Villas,0,Semi-Furnished,Upcoming,North,4900000
 Rajakilpakkam,4,4,1500,1800,Individual,New,New Construction,House & Villas,0,Furnished,Ready to Move,North West,18004354
 Urapakkam,4,4,1400,1159,Builder,New,Under Construction,House & Villas,2,Unfurnished,Ready to Move,East,9184526
 Poonamale Highway,3,3,1285,1050,Builder,Resale,0 to 5 years,House & Villas,0,Semi-Furnished,Ready to Move,North,8220926
 Pammal,2,2,900,1416,Individual,Resale,New Construction,House & Villas,1,Semi-Furnished,Ready to Move,East,5340967
-Porur,5,4,2500,850,Builder,New,Under Construction,House & Villas,0,Unfurnished,Under Construction,North,17500000
+Porur,5,4,2500,850,Builder,New,Under Construction,House & Villas,0,Unfurnished,Under Construction,North,6586250
 Oragadam,2,2,980,784,Individual,Resale,0 to 5 years,House & Villas,0,Unfurnished,Ready to Move,South,5340967
 Muggappair,2,1,540,149,Individual,New,Under Construction,House & Villas,0,Unfurnished,Under Construction,North East,1974663
 Porur,2,2,1460,200,Individual,Resale,0 to 5 years,House & Villas,1,Semi-Furnished,Ready to Move,North,8220926
@@ -457,7 +457,7 @@ Sithalapakkam,2,3,900,1006,Builder,New,0 to 5 years,House & Villas,-1,Furnished,
 Vandalur,3,3,1580,1253,Individual,New,New Construction,House & Villas,2,Unfurnished,Ready to Move,North,8722378
 Vadapalani,2,2,750,1350,Builder,New,Under Construction,House & Villas,1,Unfurnished,Under Construction,North,3207974
 Porur,2,2,980,362,Individual,New,Under Construction,House & Villas,1,Unfurnished,Under Construction,South,5340967
-Adyar,4,4,3700,1020,Builder,New,Under Construction,House & Villas,-1,Unfurnished,Under Construction,South,180000000
+Adyar,4,4,3700,1020,Builder,New,Under Construction,House & Villas,-1,Unfurnished,Under Construction,South,220000000
 Omr,3,3,2666,10000,Individual,Resale,10 to 15 years,House & Villas,1,Furnished,Ready to Move,West,59997500
 Ayappakkam,3,3,1550,619,Agent,New,Type,House & Villas,0,Unfurnished,Ready to Move,North,13016328
 Maraimalai Nagar,2,1,700,705,Individual,Resale,5 to 10 years,House & Villas,1,Unfurnished,Ready to Move,North,3207974
@@ -488,7 +488,7 @@ Avadi,2,2,1150,943,Individual,New,New Construction,House & Villas,1,Unfurnished,
 Mahindra City,2,2,1200,1000,Builder,New,New Construction,House & Villas,1,Unfurnished,Ready to Move,North,5340967
 Pallikaranai,2,2,1300,1253,Individual,New,New Construction,House & Villas,2,Unfurnished,Ready to Move,North,8220926
 Avadi,2,2,850,840,Individual,Resale,Above 20 years,House & Villas,1,Unfurnished,Ready to Move,East,4464305
-Anna Nagar,6,6,6000,2550,Individual,New,15 to 20 years,House & Villas,2,Unfurnished,Ready to Move,North,47160000
+Anna Nagar,6,6,6000,2550,Individual,New,15 to 20 years,House & Villas,2,Unfurnished,Ready to Move,North,20000000
 Oragadam,3,3,1200,640,Individual,New,0 to 5 years,House & Villas,0,Semi-Furnished,Ready to Move,South,6798035
 Avadi,2,3,1177,380,Builder,New,Under Construction,House & Villas,0,Unfurnished,Under Construction,North,5340967
 Maraimalai Nagar,3,3,1810,1100,Individual,Resale,10 to 15 years,House & Villas,0,Unfurnished,Ready to Move,North East,11605979
@@ -504,15 +504,15 @@ Ambattur,2,2,2000,783,Builder,New,0 to 5 years,House & Villas,0,Semi-Furnished,R
 Adyar,4,4,2400,731,Individual,New,Under Construction,House & Villas,2,Unfurnished,Under Construction,North,37638712
 Tondiarpet,2,5,711,200,Individual,New,New Construction,House & Villas,1,Unfurnished,Under Construction,South,3207974
 Ayappakkam,2,2,1300,592,Builder,New,Under Construction,House & Villas,0,Unfurnished,Under Construction,West,8220926
-Kolathur,2,2,750,12290,Builder,New,New Construction,House & Villas,0,Unfurnished,Under Construction,West,2700000
+Kolathur,2,2,750,12290,Builder,New,New Construction,House & Villas,0,Unfurnished,Under Construction,West,3833339
 Arumbakkam,3,3,800,316,Individual,Resale,0 to 5 years,House & Villas,1,Unfurnished,Ready to Move,East,4464305
-Mahalingapuram,7,7,13000,15000,Others,New,New Construction,House & Villas,0,Semi-Furnished,Ready to Move,East,209996682
+Mahalingapuram,7,7,13000,15000,Others,New,New Construction,House & Villas,0,Semi-Furnished,Ready to Move,East,1200000000
 Mudichur,3,3,2000,6300,Individual,New,New Construction,House & Villas,2,Furnished,Ready to Move,North East,8722378
 Kotturpuram,3,3,1600,1079,Individual,Resale,Under Construction,House & Villas,4,Semi-Furnished,Under Construction,South,12569458
 Melmaruvathur,4,6,3213,578,Individual,New,Under Construction,House & Villas,0,Unfurnished,Upcoming,East,26074461
 Tiruvottiyur,2,1,1338,620,Individual,New,New Construction,House & Villas,1,Furnished,Ready to Move,North East,8220926
 Ayanavaram,3,4,1200,1600,Individual,Resale,Above 20 years,House & Villas,2,Unfurnished,Ready to Move,South,12835666
-Perambur,5,3,1300,1586,Individual,Resale,New Construction,House & Villas,0,Furnished,Ready to Move,North,38004000
+Perambur,5,3,1300,1586,Individual,Resale,New Construction,House & Villas,0,Furnished,Ready to Move,North,35001000
 Manali,2,2,946,2200,Individual,New,New Construction,House & Villas,0,Unfurnished,Ready to Move,East,5340967
 Thiruninravur,1,1,992,1240,Individual,Resale,New Construction,House & Villas,0,Semi-Furnished,Upcoming,East,6250954
 Korattur,4,4,1600,971,Individual,New,New Construction,House & Villas,1,Semi-Furnished,Ready to Move,East,11605979
@@ -552,12 +552,12 @@ Tambaram,3,3,1500,777,Builder,New,New Construction,House & Villas,1,Semi-Furnish
 Kavankarai,2,2,1650,1253,Individual,New,New Construction,House & Villas,2,Unfurnished,Ready to Move,South,12569458
 Kondithope,1,1,390,500,Individual,New,New Construction,House & Villas,0,Unfurnished,Ready to Move,North,980890
 Purasawalkam,2,2,1800,3945,Individual,Resale,Above 20 years,House & Villas,1,Semi-Furnished,Ready to Move,South,18004354
-Guduvancheri,5,5,1200,775,Builder,New,Under Construction,House & Villas,0,Unfurnished,Under Construction,North,13502160
+Guduvancheri,5,5,1200,775,Builder,New,Under Construction,House & Villas,0,Unfurnished,Under Construction,North,8500000
 Mahabalipuram,3,3,1472,1253,Individual,New,New Construction,House & Villas,2,Unfurnished,Ready to Move,South,8220926
 Tambaram,2,2,950,1253,Individual,Resale,New Construction,House & Villas,2,Unfurnished,Ready to Move,South,5340967
 Tambaram,2,3,1050,600,Builder,New,Under Construction,House & Villas,0,Unfurnished,Under Construction,North,5340967
 Thiruvanmiyur,4,2,2000,440,Individual,New,Under Construction,House & Villas,1,Furnished,Under Construction,North,12136114
-T Nagar,5,1,3600,766,Builder,New,New Construction,House & Villas,1,Unfurnished,Ready to Move,East,5501880
+T Nagar,5,1,3600,766,Builder,New,New Construction,House & Villas,1,Unfurnished,Ready to Move,East,7695000
 Mahabalipuram,3,3,1475,597,Individual,Resale,5 to 10 years,House & Villas,1,Semi-Furnished,Ready to Move,South,8220926
 Kolathur,4,4,1900,843,Agent,New,New Construction,House & Villas,0,Semi-Furnished,Ready to Move,North,9168871
 Sriperumbudur,3,3,1300,852,Individual,New,10 to 15 years,House & Villas,1,Unfurnished,Ready to Move,North East,8220926
@@ -605,7 +605,7 @@ Pallavaram,2,2,2420,784,Builder,New,Under Construction,House & Villas,0,Unfurnis
 Saidapet,2,2,1200,575,Individual,New,Under Construction,House & Villas,1,Furnished,Under Construction,East,5340967
 Tambaram,2,2,740,726,Individual,New,New Construction,House & Villas,1,Semi-Furnished,Ready to Move,East,3207974
 Veebampattu,2,2,2400,2330,Individual,New,Under Construction,House & Villas,1,Unfurnished,Under Construction,West,480000
-Virugambakkam,4,4,2400,900,Individual,New,Under Construction,House & Villas,3,Furnished,Ready to Move,East,85000000
+Virugambakkam,4,4,2400,900,Individual,New,Under Construction,House & Villas,3,Furnished,Ready to Move,East,4764000
 neelankarai,6,6,5000,640,Builder,New,New Construction,House & Villas,1,Unfurnished,Under Construction,North East,85000000
 Guindy,1,1,550,575,Individual,New,Under Construction,House & Villas,1,Furnished,Under Construction,East,2406982
 Guduvancheri,2,2,960,843,Agent,Resale,0 to 5 years,House & Villas,0,Semi-Furnished,Ready to Move,South West,5340967
@@ -620,7 +620,7 @@ Thiruvalangadu,1,1,460,170,Individual,Resale,0 to 5 years,House & Villas,0,Unfur
 Kovilambakkam,3,3,1700,1470,Individual,New,0 to 5 years,House & Villas,2,Semi-Furnished,Ready to Move,North,8722378
 Manali,1,1,1415,1050,Individual,Resale,5 to 10 years,House & Villas,0,Semi-Furnished,Ready to Move,South,2543996
 Nanganallur,2,2,825,682,Builder,New,Under Construction,House & Villas,1,Furnished,Ready to Move,East,3492296
-Kovalam,2,2,2400,620,Builder,New,Under Construction,House & Villas,0,Furnished,Ready to Move,South,85000000
+Kovalam,2,2,2400,620,Builder,New,Under Construction,House & Villas,0,Furnished,Ready to Move,South,7200
 Porur,2,1,850,800,Builder,New,Under Construction,House & Villas,0,Unfurnished,Ready to Move,North,3492296
 East Coast Road,1,1,700,608,Builder,New,Under Construction,House & Villas,1,Unfurnished,Under Construction,East,3207974
 Villivakkam,6,5,2300,650,Individual,New,Under Construction,House & Villas,1,Semi-Furnished,Ready to Move,South,9168871
@@ -628,7 +628,7 @@ Madhavaram,3,3,4000,971,Individual,New,New Construction,House & Villas,1,Unfurni
 Porur,4,3,1563,900,Agent,New,New Construction,House & Villas,0,Unfurnished,Ready to Move,North,9168871
 Pammal,3,2,2000,707,Builder,New,Under Construction,House & Villas,1,Semi-Furnished,Under Construction,East,9168871
 Vadapalani,3,7,1950,1200,Builder,Resale,5 to 10 years,House & Villas,0,Semi-Furnished,Ready to Move,East,18004354
-Panayur,10,10,10000,1349,Builder,New,Under Construction,House & Villas,1,Unfurnished,Ready to Move,East,129960000
+Panayur,10,10,10000,1349,Builder,New,Under Construction,House & Villas,1,Unfurnished,Ready to Move,East,135000000
 Perungalathur,3,3,2000,1360,Individual,New,Under Construction,House & Villas,2,Unfurnished,Ready to Move,North,8722378
 Porur,4,4,1543,600,Individual,Resale,5 to 10 years,House & Villas,2,Unfurnished,Ready to Move,West,12136114
 Mmda Colony,4,2,4750,1100,Individual,New,10 to 15 years,House & Villas,1,Furnished,Ready to Move,North,28755605
@@ -653,7 +653,7 @@ Tambaram Mudichur Road,3,3,1000,650,Builder,New,New Construction,House & Villas,
 Tambaram,3,3,1000,540,Individual,Resale,0 to 5 years,House & Villas,2,Unfurnished,Ready to Move,East,6798035
 Kilpauk,3,3,1400,1188,Individual,Resale,10 to 15 years,House & Villas,0,Unfurnished,Ready to Move,East,8220926
 East Coast Road,2,2,695,220,Individual,New,Under Construction,House & Villas,1,Unfurnished,Ready to Move,East,3207974
-Adyar,4,5,9200,570,Individual,New,New Construction,House & Villas,1,Furnished,Ready to Move,East,180000000
+Adyar,4,5,9200,570,Individual,New,New Construction,House & Villas,1,Furnished,Ready to Move,East,49000280
 Medavakkam,3,3,1775,971,Individual,New,0 to 5 years,House & Villas,1,Semi-Furnished,Ready to Move,South,11605979
 Madhavaram,8,8,3600,616,Builder,New,New Construction,House & Villas,0,Furnished,Ready to Move,South,26074461
 West Mambalam,3,2,1100,2200,Individual,Resale,15 to 20 years,House & Villas,0,Semi-Furnished,Ready to Move,South,6798035
@@ -662,7 +662,7 @@ Pallikaranai,2,2,980,800,Individual,New,0 to 5 years,House & Villas,1,Unfurnishe
 Ennore Port,2,2,1300,775,Individual,New,New Construction,House & Villas,0,Unfurnished,Ready to Move,East,8220926
 Choolai,1,1,2730,570,Individual,New,0 to 5 years,House & Villas,0,Unfurnished,Ready to Move,West,4000000
 Manali,2,2,1000,964,Individual,New,0 to 5 years,House & Villas,0,Unfurnished,Ready to Move,South,5340967
-Saligramam,2,2,2500,1248,Builder,New,New Construction,House & Villas,1,Furnished,Ready to Move,East,7200
+Saligramam,2,2,2500,1248,Builder,New,New Construction,House & Villas,1,Furnished,Ready to Move,East,4764000
 Singaperumal Koil,2,2,800,756,Builder,New,Under Construction,House & Villas,1,Unfurnished,Under Construction,South,3492296
 Egmore,4,2,6500,1303,Individual,Resale,0 to 5 years,House & Villas,1,Semi-Furnished,Ready to Move,South,28755605
 Kolathur,4,4,2000,601,Individual,Resale,5 to 10 years,House & Villas,1,Unfurnished,Ready to Move,North East,12136114
@@ -681,12 +681,12 @@ Gst Road,3,3,2795,900,Individual,New,New Construction,House & Villas,1,Unfurnish
 Valasaravakkam,6,5,2000,316,Builder,New,New Construction,House & Villas,1,Unfurnished,Ready to Move,North,12136114
 Thiruvanmiyur,4,4,4588,1550,Individual,Resale,New Construction,House & Villas,0,Unfurnished,Ready to Move,East,28755605
 Oragadam,2,2,1145,965,Individual,Resale,New Construction,House & Villas,1,Unfurnished,Under Construction,East,5340967
-Royapettah,8,8,6000,1200,Individual,New,New Construction,House & Villas,0,Unfurnished,Ready to Move,South,59962200
+Royapettah,8,8,6000,1200,Individual,New,New Construction,House & Villas,0,Unfurnished,Ready to Move,South,47160000
 Thiruvotriyur,3,3,750,1100,Individual,Resale,10 to 15 years,House & Villas,0,Semi-Furnished,Ready to Move,North,9750125
 Nolambur,2,2,1021,1061,Individual,New,New Construction,House & Villas,3,Unfurnished,Ready to Move,East,5340967
-Vandalur,3,3,1500,1353,Individual,Resale,0 to 5 years,House & Villas,1,Unfurnished,Ready to Move,West,6200000
+Vandalur,3,3,1500,1353,Individual,Resale,0 to 5 years,House & Villas,1,Unfurnished,Ready to Move,West,24164603
 Navalur,3,3,2400,221,Individual,Resale,5 to 10 years,House & Villas,1,Furnished,Ready to Move,West,7200
-Perungudi,6,6,2400,850,Builder,New,Under Construction,House & Villas,2,Unfurnished,Ready to Move,North,6586250
+Perungudi,6,6,2400,850,Builder,New,Under Construction,House & Villas,2,Unfurnished,Ready to Move,North,17500000
 Ayanambakkam,2,2,640,1040,Agent,Resale,15 to 20 years,House & Villas,1,Unfurnished,Ready to Move,North,3207974
 Minjur,2,2,936,3794,Individual,Resale,0 to 5 years,House & Villas,0,Semi-Furnished,Ready to Move,East,5340967
 Vysarpadi,4,3,1760,476,Individual,New,New Construction,House & Villas,0,Semi-Furnished,Ready to Move,South East,12136114
@@ -698,7 +698,7 @@ Omr,2,2,987,1097,Agent,New,10 to 15 years,House & Villas,1,Unfurnished,Ready to 
 Thiruvalluvar Nagar,2,2,2210,600,Individual,Resale,0 to 5 years,House & Villas,0,Unfurnished,Ready to Move,East,12136114
 Avadi,2,2,900,1400,Individual,Resale,10 to 15 years,House & Villas,1,Semi-Furnished,Ready to Move,South,5340967
 Adambakkam,2,2,1800,775,Builder,New,Under Construction,House & Villas,0,Semi-Furnished,Under Construction,West,13016328
-Adyar,3,3,3000,600,Individual,New,Under Construction,House & Villas,1,Semi-Furnished,Under Construction,North East,220000000
+Adyar,3,3,3000,600,Individual,New,Under Construction,House & Villas,1,Semi-Furnished,Under Construction,North East,180000000
 Madipakkam,3,3,1250,800,Builder,New,Under Construction,House & Villas,1,Semi-Furnished,Under Construction,North,8220926
 Kumaran Nagar,3,3,1750,1437,Individual,New,New Construction,House & Villas,2,Furnished,Ready to Move,East,8722378
 Red Hills,2,2,671,1050,Builder,New,Under Construction,House & Villas,3,Semi-Furnished,Ready to Move,East,3207974
@@ -738,10 +738,10 @@ Chengalpattu,3,2,3400,1050,Individual,Resale,5 to 10 years,House & Villas,0,Semi
 Ayanambakkam,3,3,640,650,Builder,New,Under Construction,House & Villas,1,Semi-Furnished,Ready to Move,South,9750125
 Ayanavaram,6,4,2000,1120,Individual,Resale,15 to 20 years,House & Villas,0,Unfurnished,Ready to Move,North East,11605979
 Avadi,2,2,1006,1075,Individual,Resale,Under Construction,House & Villas,1,Unfurnished,Under Construction,East,5340967
-East Coast Road,4,5,2400,1120,Builder,New,New Construction,House & Villas,6,Unfurnished,Ready to Move,North,6586250
+East Coast Road,4,5,2400,1120,Builder,New,New Construction,House & Villas,6,Unfurnished,Ready to Move,North,17500000
 Vepampattu,3,3,650,775,Individual,New,New Construction,House & Villas,0,Unfurnished,Ready to Move,East,4965353
 Omr,5,2,4500,1400,Individual,New,0 to 5 years,House & Villas,0,Unfurnished,Ready to Move,East,28755605
-Valasaravakkam,5,5,2400,1042,Individual,New,Under Construction,House & Villas,1,Semi-Furnished,Ready to Move,North,7938000
+Valasaravakkam,5,5,2400,1042,Individual,New,Under Construction,House & Villas,1,Semi-Furnished,Ready to Move,North,480000
 Pallikaranai,1,1,400,650,Builder,New,0 to 5 years,House & Villas,0,Unfurnished,Under Construction,South,1368843
 Maduravayol,1,1,400,1120,Builder,New,New Construction,House & Villas,1,Unfurnished,Ready to Move,North,1368843
 Avadi,2,2,1600,1318,Individual,New,0 to 5 years,House & Villas,1,Semi-Furnished,Ready to Move,South,20030613
@@ -758,7 +758,7 @@ Nolambur,2,2,1500,1253,Individual,Resale,5 to 10 years,House & Villas,2,Unfurnis
 Singaperumal Koil,2,2,900,6168,Individual,Resale,5 to 10 years,House & Villas,10,Semi-Furnished,Ready to Move,South,5340967
 Ambattur,2,1,675,2450,Individual,New,Under Construction,House & Villas,1,Semi-Furnished,Ready to Move,East,3207974
 Urapakkam,3,3,1750,974,Individual,New,New Construction,House & Villas,1,Unfurnished,Ready to Move,North,18004354
-Kotturpuram,5,5,2000,1447,Individual,Resale,0 to 5 years,House & Villas,0,Unfurnished,Under Construction,West,51750000
+Kotturpuram,5,5,2000,1447,Individual,Resale,0 to 5 years,House & Villas,0,Unfurnished,Under Construction,West,30497100
 Omr,4,4,1500,650,Individual,New,Under Construction,House & Villas,1,Semi-Furnished,Ready to Move,South,9168871
 Medavakkam,2,3,780,650,Individual,New,Under Construction,House & Villas,1,Semi-Furnished,Ready to Move,South,3492296
 Kovalam,2,2,1200,594,Individual,New,0 to 5 years,House & Villas,0,Semi-Furnished,Ready to Move,South,5340967
@@ -770,7 +770,7 @@ Omr,4,4,1800,800,Individual,Resale,0 to 5 years,House & Villas,1,Furnished,Ready
 Poonamale Highway,4,4,2000,640,Individual,Resale,10 to 15 years,House & Villas,0,Unfurnished,Ready to Move,East,12136114
 Avadi,5,3,3000,3200,Individual,Resale,10 to 15 years,House & Villas,2,Semi-Furnished,Ready to Move,East,28755605
 Aminjikarai,2,2,2779,784,Individual,Resale,0 to 5 years,House & Villas,0,Unfurnished,Ready to Move,South,61497333
-Valasaravakkam,3,2,2500,600,Individual,Resale,10 to 15 years,House & Villas,0,Semi-Furnished,Ready to Move,East,6470737
+Valasaravakkam,3,2,2500,600,Individual,Resale,10 to 15 years,House & Villas,0,Semi-Furnished,Ready to Move,East,27000000
 Gst Road,3,3,1200,784,Individual,Resale,0 to 5 years,House & Villas,0,Unfurnished,Ready to Move,South,6798035
 Valasaravakkam,4,4,2200,1082,Individual,Resale,10 to 15 years,House & Villas,1,Semi-Furnished,Ready to Move,North,18004354
 Kovilambakkam,2,2,1000,640,Individual,Resale,0 to 5 years,House & Villas,1,Furnished,Ready to Move,South,5340967
@@ -779,7 +779,7 @@ Perungalathur,2,2,750,800,Individual,Resale,0 to 5 years,House & Villas,1,Furnis
 Madipakkam,2,2,2960,920,Individual,Resale,0 to 5 years,House & Villas,2,Unfurnished,Ready to Move,North,28755605
 Avadi,2,2,1000,768,Individual,Resale,0 to 5 years,House & Villas,1,Unfurnished,Ready to Move,East,5340967
 Choolaimedu,2,1,1297,597,Individual,Resale,0 to 5 years,House & Villas,1,Furnished,Ready to Move,South,8220926
-Kilpauk,8,6,6000,812,Individual,Resale,0 to 5 years,House & Villas,1,Unfurnished,Ready to Move,South West,59962200
+Kilpauk,8,6,6000,812,Individual,Resale,0 to 5 years,House & Villas,1,Unfurnished,Ready to Move,South West,20000000
 Thiruvanmiyur,4,3,3000,2803,Individual,Resale,0 to 5 years,House & Villas,0,Furnished,Ready to Move,South,28755605
 Madipakkam,3,3,1800,746,Individual,Resale,0 to 5 years,House & Villas,1,Furnished,Ready to Move,South,9168871
 Tambaram,4,3,2100,784,Individual,Resale,0 to 5 years,House & Villas,0,Unfurnished,Ready to Move,South,9168871
@@ -804,7 +804,7 @@ K Nagar,6,5,1700,640,Individual,New,Above 20 years,House & Villas,1,Unfurnished,
 Ayanavaram,6,6,2400,910,Individual,Resale,5 to 10 years,House & Villas,0,Unfurnished,Ready to Move,East,6470737
 Padi,2,2,850,633,Individual,Resale,0 to 5 years,House & Villas,1,Unfurnished,Ready to Move,East,4464305
 Velachery,5,6,2200,999,Individual,Resale,0 to 5 years,House & Villas,1,Furnished,Ready to Move,South,18004354
-Thiruvanmiyur,15,15,22000,2318,Individual,Resale,0 to 5 years,House & Villas,1,Semi-Furnished,Ready to Move,East,209996682
+Thiruvanmiyur,15,15,22000,2318,Individual,Resale,0 to 5 years,House & Villas,1,Semi-Furnished,Ready to Move,East,1200000000
 Mylapore,6,6,1672,900,Individual,Resale,0 to 5 years,House & Villas,2,Unfurnished,Ready to Move,South,9168871
 K Nagar,2,3,1800,1398,Individual,Resale,5 to 10 years,House & Villas,1,Furnished,Ready to Move,West,30497100
 Guduvancheri,2,2,700,1054,Individual,Resale,0 to 5 years,House & Villas,4,Unfurnished,Ready to Move,East,3207974
@@ -824,7 +824,7 @@ Chrompet,1,1,522,640,Individual,Resale,Under Construction,House & Villas,1,Furni
 Tambaram Mudichur Road,2,2,250,1043,Individual,Resale,0 to 5 years,House & Villas,1,Unfurnished,Ready to Move,East,1368843
 Pallikaranai,2,2,1000,784,Individual,Resale,0 to 5 years,House & Villas,0,Unfurnished,Ready to Move,South,5340967
 Ayyapanthangal,2,2,792,1400,Individual,New,Under Construction,House & Villas,0,Unfurnished,Ready to Move,North,3492296
-Choolaimedu,2,2,2400,946,Builder,New,Under Construction,House & Villas,1,Semi-Furnished,Under Construction,North,6586250
+Choolaimedu,2,2,2400,946,Builder,New,Under Construction,House & Villas,1,Semi-Furnished,Under Construction,North,17500000
 Guduvancheri,2,2,750,550,Builder,New,New Construction,House & Villas,0,Unfurnished,Ready to Move,East,3207974
 Palavakkam,4,3,3650,746,Individual,Resale,0 to 5 years,House & Villas,1,Furnished,Ready to Move,South,28221518
 Kolathur,4,4,1800,1042,Individual,Resale,0 to 5 years,House & Villas,1,Semi-Furnished,Ready to Move,South,11605979
@@ -868,14 +868,14 @@ Chengalpattu,3,3,2400,613,Individual,Resale,New Construction,House & Villas,1,Un
 Chengalpattu,4,5,750,2416,Individual,New,0 to 5 years,House & Villas,2,Unfurnished,Ready to Move,East,4965353
 Perambur,8,8,3200,784,Individual,Resale,New Construction,House & Villas,1,Semi-Furnished,Ready to Move,East,26074461
 Nungambakkam,4,4,3000,774,Individual,Resale,0 to 5 years,House & Villas,2,Furnished,Ready to Move,East,28221518
-Omr,3,4,2000,1100,Individual,Resale,0 to 5 years,House & Villas,0,Semi-Furnished,Ready to Move,West,51750000
+Omr,3,4,2000,1100,Individual,Resale,0 to 5 years,House & Villas,0,Semi-Furnished,Ready to Move,West,30497100
 Camp Road,1,2,650,661,Individual,Resale,0 to 5 years,House & Villas,0,Furnished,Ready to Move,North,3207974
 Chengalpattu,2,2,1187,48375,Individual,Resale,0 to 5 years,House & Villas,1,Unfurnished,Ready to Move,South,5340967
 neelankarai,3,3,4500,1142,Individual,Resale,0 to 5 years,House & Villas,1,Semi-Furnished,Ready to Move,East,28755605
 Keelkattalai,2,2,1600,920,Individual,Resale,0 to 5 years,House & Villas,2,Furnished,Ready to Move,North,8722378
 Velachery,6,4,42,2400,Individual,New,0 to 5 years,House & Villas,1,Semi-Furnished,Ready to Move,East,9000000
 Thiruninravur,4,2,1500,4000,Individual,Resale,10 to 15 years,House & Villas,1,Unfurnished,Ready to Move,South,18004354
-Mylapore,5,6,10300,1280,Individual,Resale,Above 20 years,House & Villas,2,Unfurnished,Ready to Move,South,135000000
+Mylapore,5,6,10300,1280,Individual,Resale,Above 20 years,House & Villas,2,Unfurnished,Ready to Move,South,129960000
 Valasaravakkam,6,5,3200,316,Individual,Resale,New Construction,House & Villas,1,Unfurnished,Ready to Move,North,42000000
 Thoraipakkam,2,2,1470,1200,Individual,Resale,0 to 5 years,House & Villas,1,Semi-Furnished,Ready to Move,South,8220926
 Anna Nagar,14,8,4500,430,Individual,New,Under Construction,House & Villas,0,Unfurnished,Ready to Move,East,26074461
@@ -897,7 +897,7 @@ Anakaputhur,2,2,975,1253,Individual,New,New Construction,House & Villas,2,Unfurn
 Tambaram,4,2,1000,865,Individual,New,New Construction,House & Villas,0,Semi-Furnished,Ready to Move,East,6798035
 T Nagar,15,12,3300,1444,Agent,Resale,15 to 20 years,House & Villas,1,Unfurnished,Ready to Move,North,26074461
 Perambur,2,2,16371,865,Builder,New,10 to 15 years,House & Villas,0,Unfurnished,Ready to Move,North,28221518
-Ramapuram,7,7,8000,852,Individual,New,Under Construction,House & Villas,1,Unfurnished,Ready to Move,East,59962200
+Ramapuram,7,7,8000,852,Individual,New,Under Construction,House & Villas,1,Unfurnished,Ready to Move,East,20000000
 Guduvancheri,1,1,401,838,Builder,New,0 to 5 years,House & Villas,0,Unfurnished,Under Construction,West,980890
 Guindy,4,3,1300,800,Individual,New,10 to 15 years,House & Villas,0,Semi-Furnished,Ready to Move,North,9184526
 Avadi,2,2,1100,290,Individual,Resale,5 to 10 years,House & Villas,0,Furnished,Ready to Move,West,5340967
@@ -916,15 +916,15 @@ Sithalapakkam,2,2,750,620,Individual,New,New Construction,House & Villas,0,Unfur
 Madipakkam,2,2,1200,540,Individual,Resale,0 to 5 years,House & Villas,2,Semi-Furnished,Ready to Move,East,5340967
 Thirumullaivoyal,2,2,1000,880,Individual,New,New Construction,House & Villas,2,Semi-Furnished,Ready to Move,North,5340967
 Porur,2,2,3000,750,Individual,New,New Construction,House & Villas,5,Semi-Furnished,Ready to Move,East,28221518
-Tambaram,4,4,2550,697,Individual,New,0 to 5 years,House & Villas,0,Unfurnished,Ready to Move,South,480000
+Tambaram,4,4,2550,697,Individual,New,0 to 5 years,House & Villas,0,Unfurnished,Ready to Move,South,7938000
 Valasaravakkam,4,4,4000,550,Individual,Resale,15 to 20 years,House & Villas,1,Semi-Furnished,Ready to Move,North,21400011
 East Tambaram,2,2,1125,1505,Individual,Resale,5 to 10 years,House & Villas,2,Unfurnished,Ready to Move,North,5340967
 Madipakkam,3,3,1300,1253,Individual,Resale,New Construction,House & Villas,2,Semi-Furnished,Ready to Move,North,8220926
 Medavakkam,3,3,1500,550,Individual,New,Under Construction,House & Villas,1,Furnished,Under Construction,North,12136114
 Perumbakkam,4,4,1450,523,Individual,Resale,Above 20 years,House & Villas,0,Semi-Furnished,Ready to Move,West,31200000
-Valasaravakkam,2,2,2700,4000,Individual,Resale,10 to 15 years,House & Villas,2,Semi-Furnished,Ready to Move,East,13964714
+Valasaravakkam,2,2,2700,4000,Individual,Resale,10 to 15 years,House & Villas,2,Semi-Furnished,Ready to Move,East,27000000
 Guduvancheri,3,2,1220,1353,Individual,New,0 to 5 years,House & Villas,0,Semi-Furnished,Ready to Move,West,9498550
-Panayur,10,10,6000,2000,Individual,Resale,5 to 10 years,House & Villas,1,Unfurnished,Ready to Move,South,47160000
+Panayur,10,10,6000,2000,Individual,Resale,5 to 10 years,House & Villas,1,Unfurnished,Ready to Move,South,20000000
 Kolathur,2,2,1200,833,Individual,New,Under Construction,House & Villas,1,Unfurnished,Ready to Move,South,5340967
 Muglivakkam,3,3,2400,2417,Individual,New,Type,House & Villas,0,Semi-Furnished,Ready to Move,South,37638712
 Pallavaram,2,2,900,2000,Individual,Resale,0 to 5 years,House & Villas,2,Furnished,Under Construction,East,5340967
@@ -940,7 +940,7 @@ Adambakkam Ganesh Nagar,4,4,1800,1253,Individual,New,New Construction,House & Vi
 East Coast Road,2,2,1500,633,Individual,Resale,0 to 5 years,House & Villas,1,Furnished,Ready to Move,East,13016328
 Kolathur,7,8,3600,1079,Individual,Resale,Under Construction,House & Villas,4,Semi-Furnished,Under Construction,South,26074461
 Avadi,2,2,2425,674,Individual,New,Under Construction,House & Villas,0,Unfurnished,Under Construction,East,6470737
-Tambaram,4,3,2400,759,Individual,New,0 to 5 years,House & Villas,0,Semi-Furnished,Ready to Move,West,480000
+Tambaram,4,3,2400,759,Individual,New,0 to 5 years,House & Villas,0,Semi-Furnished,Ready to Move,West,7938000
 Anna Nagar,2,2,1000,1610,Individual,New,0 to 5 years,House & Villas,0,Unfurnished,Ready to Move,South,5340967
 Anna Nagar,2,2,1000,975,Individual,New,0 to 5 years,House & Villas,1,Unfurnished,Ready to Move,South,5340967
 Omr,3,3,1200,971,Individual,New,New Construction,House & Villas,1,Unfurnished,Ready to Move,North,6798035
@@ -950,7 +950,7 @@ Kovilambakkam,3,3,1800,2100,Individual,Resale,0 to 5 years,House & Villas,3,Furn
 East Coast Road,3,3,2700,594,Individual,New,15 to 20 years,House & Villas,1,Unfurnished,Ready to Move,East,13964714
 Kodambakkam,2,2,3800,900,Individual,New,New Construction,House & Villas,3,Unfurnished,Ready to Move,North,28755605
 Guindy,2,2,1200,1312,Individual,Resale,Above 20 years,House & Villas,1,Semi-Furnished,Ready to Move,East,5340967
-neelankarai,7,7,7000,756,Builder,New,Under Construction,House & Villas,1,Furnished,Under Construction,North,1200000000
+neelankarai,7,7,7000,756,Builder,New,Under Construction,House & Villas,1,Furnished,Under Construction,North,42500000
 Muglivakkam,3,3,1200,7710,Individual,New,0 to 5 years,House & Villas,10,Semi-Furnished,Ready to Move,North,6798035
 Injambakkam,4,4,5000,1700,Individual,New,Under Construction,House & Villas,2,Unfurnished,Ready to Move,East,28755605
 Medavakkam,3,3,2000,1288,Individual,Resale,0 to 5 years,House & Villas,0,Semi-Furnished,Ready to Move,South,11605979
@@ -959,7 +959,7 @@ Thiruninravur,2,2,800,1200,Individual,Resale,15 to 20 years,House & Villas,1,Sem
 Thoraipakkam,3,3,1800,200,Individual,New,0 to 5 years,House & Villas,0,Furnished,Ready to Move,North,12136114
 Porur,2,2,1,800,Individual,New,0 to 5 years,House & Villas,0,Furnished,Ready to Move,South,1368843
 Virugambakkam,3,3,2000,1155,Builder,Resale,0 to 5 years,House & Villas,1,Unfurnished,Ready to Move,South,18004354
-Royapettah,1,1,2400,600,Individual,Resale,0 to 5 years,House & Villas,0,Semi-Furnished,Ready to Move,North,8996000
+Royapettah,1,1,2400,600,Individual,Resale,0 to 5 years,House & Villas,0,Semi-Furnished,Ready to Move,North,1900000
 Selaiyur,3,2,1425,663,Individual,Resale,10 to 15 years,House & Villas,1,Furnished,Ready to Move,North,8220926
 Uthandi,2,2,1,1680,Individual,Resale,0 to 5 years,House & Villas,1,Furnished,Ready to Move,South,1368843
 Virugambakkam,1,2,750,1450,Individual,Resale,Above 20 years,House & Villas,2,Unfurnished,Under Construction,East,3207974
@@ -1016,8 +1016,8 @@ Saidapet,2,2,671,365,Builder,New,New Construction,Builder Floors,2,Unfurnished,R
 Guduvancheri,2,2,650,871,Builder,New,Under Construction,Builder Floors,1,Unfurnished,Under Construction,West,3207974
 Mugalivakkam,4,2,800,646,Individual,New,New Construction,Builder Floors,1,Unfurnished,Ready to Move,North,4421651
 Anna Nagar,3,3,20444,945,Individual,New,5 to 10 years,House & Villas,0,Unfurnished,Ready to Move,East,4826600
-Mylapore,2,1,4763,200,Individual,New,New Construction,House & Villas,2,Unfurnished,Ready to Move,East,1000000
-Chennai,1,1,1500,650,Builder,New,Under Construction,House & Villas,0,Unfurnished,Ready to Move,South East,4000000
+Mylapore,2,1,4763,200,Individual,New,New Construction,House & Villas,2,Unfurnished,Ready to Move,East,4779
+Chennai,1,1,1500,650,Builder,New,Under Construction,House & Villas,0,Unfurnished,Ready to Move,South East,4493600
 Nesamani Nagar,2,2,1200,527,Individual,New,0 to 5 years,House & Villas,1,Semi-Furnished,Under Construction,South,5340967
 Sriperumbudur,2,2,759,2006,Individual,New,0 to 5 years,House & Villas,2,Unfurnished,Ready to Move,East,4464305
 Madipakkam,2,2,676,800,Builder,New,Under Construction,House & Villas,0,Unfurnished,Under Construction,North,3207974
@@ -1027,7 +1027,7 @@ Urapakkam,2,2,780,726,Individual,New,Above 20 years,House & Villas,1,Unfurnished
 Kotturpuram,3,3,1911,521,Individual,New,New Construction,House & Villas,0,Unfurnished,Ready to Move,North,12136114
 Vanagaram,2,2,755,1288,Individual,New,0 to 5 years,House & Villas,1,Semi-Furnished,Ready to Move,East,4464305
 Ayappakkam,2,2,915,346,Individual,Resale,0 to 5 years,House & Villas,0,Semi-Furnished,Ready to Move,North,5340967
-Alwarpet Warren Road,4,4,2622,1663,Individual,New,New Construction,House & Villas,0,Furnished,Under Construction,North West,4764000
+Alwarpet Warren Road,4,4,2622,1663,Individual,New,New Construction,House & Villas,0,Furnished,Under Construction,North West,85000000
 Sriperumbudur,2,1,645,8635,Individual,Resale,0 to 5 years,House & Villas,0,Unfurnished,Ready to Move,East,3207974
 Chrompet Chromepet New Colony,2,2,749,1000,Individual,New,Under Construction,House & Villas,1,Unfurnished,Under Construction,East,3207974
 Velachery,3,2,1350,1050,Individual,Resale,5 to 10 years,House & Villas,0,Unfurnished,Ready to Move,West,8220926
@@ -1055,7 +1055,7 @@ Pammal,2,2,1001,362,Builder,New,Under Construction,House & Villas,1,Unfurnished,
 Porur,2,2,689,2626,Individual,Resale,0 to 5 years,House & Villas,2,Furnished,Ready to Move,South,3207974
 Thiruvanmiyur,3,2,1245,200,Individual,New,Under Construction,House & Villas,1,Unfurnished,Under Construction,South,8220926
 Porur,2,2,702,1020,Individual,New,Under Construction,House & Villas,1,Unfurnished,Under Construction,East,3207974
-Anna Nagar,3,3,352836,800,Builder,New,Under Construction,House & Villas,0,Unfurnished,Under Construction,North,91500000
+Anna Nagar,3,3,352836,800,Builder,New,Under Construction,House & Villas,0,Unfurnished,Under Construction,North,930250000
 Sithalapakkam,2,2,841,1400,Agent,New,0 to 5 years,House & Villas,1,Unfurnished,Under Construction,North,4464305
 Poonamale High Road,3,2,1539,1006,Builder,New,0 to 5 years,House & Villas,-1,Furnished,Ready to Move,South,18004354
 Ayanambakkam,2,2,931,1350,Builder,New,Under Construction,House & Villas,1,Unfurnished,Under Construction,North,5340967
@@ -1075,17 +1075,17 @@ Iyyappanthangal,2,2,975,800,Individual,Resale,Under Construction,House & Villas,
 Parrys,2,2,700,640,Builder,New,Under Construction,House & Villas,1,Unfurnished,Under Construction,North,3207974
 Adyar,2,2,700,3528,Individual,New,0 to 5 years,House & Villas,2,Unfurnished,Ready to Move,East,19530
 Kolapakkam,2,2,1000,874,Individual,Resale,New Construction,House & Villas,-1,Furnished,Ready to Move,North,5340967
-Kelambakkam,2,2,174240,1253,Individual,New,New Construction,House & Villas,2,Unfurnished,Ready to Move,North,91500000
+Kelambakkam,2,2,174240,1253,Individual,New,New Construction,House & Villas,2,Unfurnished,Ready to Move,North,43000000
 Chrompet,2,2,651,1171,Individual,Resale,5 to 10 years,House & Villas,1,Furnished,Ready to Move,South West,3207974
 Chitlapakkam,2,2,1045,850,Builder,New,0 to 5 years,House & Villas,1,Unfurnished,Ready to Move,North East,5340967
-Ambattur,3,3,87120,900,Builder,New,0 to 5 years,House & Villas,2,Unfurnished,Ready to Move,North East,91500000
+Ambattur,3,3,87120,900,Builder,New,0 to 5 years,House & Villas,2,Unfurnished,Ready to Move,North East,43000000
 Kelambakkam,2,2,612,860,Individual,New,New Construction,House & Villas,2,Semi-Furnished,Ready to Move,North,3593155
 Korattur,3,2,1250,1700,Individual,New,New Construction,House & Villas,2,Unfurnished,Ready to Move,East,8220926
 Thoraipakkam,2,2,900,380,Builder,New,Under Construction,House & Villas,0,Unfurnished,Under Construction,North,5340967
-Omr,2,3,80000,480,Builder,New,Under Construction,House & Villas,1,Unfurnished,Under Construction,East,120000000
+Omr,2,3,80000,480,Builder,New,Under Construction,House & Villas,1,Unfurnished,Under Construction,East,43000000
 Tambaram Mudichur Road,1,1,611,1950,Individual,Resale,10 to 15 years,House & Villas,1,Semi-Furnished,Ready to Move,East,1974663
 Kelambakkam,1,1,477,943,Individual,New,New Construction,House & Villas,1,Unfurnished,Ready to Move,North East,2406982
-East Coast Road,10,10,6000,1000,Builder,New,New Construction,House & Villas,1,Unfurnished,Ready to Move,North,59962200
+East Coast Road,10,10,6000,1000,Builder,New,New Construction,House & Villas,1,Unfurnished,Ready to Move,North,20000000
 Ayanambakkam,2,2,1048,1253,Individual,New,New Construction,House & Villas,2,Unfurnished,Ready to Move,North,5340967
 Villivakkam,2,2,775,840,Individual,Resale,Above 20 years,House & Villas,0,Unfurnished,Ready to Move,East,4464305
 Guduvancheri,3,2,1078,640,Individual,New,0 to 5 years,House & Villas,0,Semi-Furnished,Ready to Move,South,6798035
@@ -1144,14 +1144,14 @@ Nandanam Cit Nagar,1,1,700,3945,Individual,Resale,Above 20 years,House & Villas,
 Kovilambakkam,2,2,808,775,Builder,New,Under Construction,House & Villas,0,Unfurnished,Under Construction,North,3492296
 Thiruporur,1,1,604,1253,Individual,New,New Construction,House & Villas,2,Unfurnished,Ready to Move,South,1974663
 M R C Nagar,2,2,1200,1253,Individual,Resale,New Construction,House & Villas,2,Unfurnished,Ready to Move,South,5340967
-Kavankarai,3,4,2500,600,Builder,New,Under Construction,House & Villas,0,Unfurnished,Under Construction,North,17500000
+Kavankarai,3,4,2500,600,Builder,New,Under Construction,House & Villas,0,Unfurnished,Under Construction,North,6586250
 Urapakkam,3,3,1055,440,Individual,New,Under Construction,House & Villas,1,Furnished,Under Construction,North,6798035
 Medavakkam,2,2,667,766,Builder,New,New Construction,House & Villas,0,Unfurnished,Ready to Move,East,3207974
 Medavakkam,1,1,516,597,Individual,Resale,5 to 10 years,House & Villas,1,Semi-Furnished,Ready to Move,South,1974663
 Velachery,2,2,750,843,Agent,New,New Construction,House & Villas,0,Semi-Furnished,Ready to Move,North,3207974
 Alwarpet,3,3,1900,852,Individual,New,10 to 15 years,House & Villas,1,Unfurnished,Ready to Move,North East,13016328
 Kattupakkam,2,2,835,852,Individual,Resale,0 to 5 years,House & Villas,1,Unfurnished,Ready to Move,East,4464305
-Sholinganallur,3,3,35000,20,Individual,New,New Construction,House & Villas,1,Unfurnished,Ready to Move,North East,120000000
+Sholinganallur,3,3,35000,20,Individual,New,New Construction,House & Villas,1,Unfurnished,Ready to Move,North East,91500000
 Pallavaram,2,2,1121,1040,Individual,New,New Construction,House & Villas,1,Unfurnished,Ready to Move,North,5340967
 Anakaputhur,2,2,920,1426,Individual,New,Under Construction,House & Villas,1,Semi-Furnished,Under Construction,North,5340967
 Triplicane,2,2,625,1050,Individual,New,New Construction,House & Villas,2,Furnished,Ready to Move,East,1974663
@@ -1222,7 +1222,7 @@ Kovilambakkam,3,2,1317,1150,Builder,New,New Construction,House & Villas,2,Semi-F
 Villivakkam,3,2,1197,1082,Individual,Resale,5 to 10 years,House & Villas,1,Semi-Furnished,Ready to Move,North,6798035
 Muggappair,2,2,1234,1155,Individual,Resale,Type,House & Villas,1,Furnished,Ready to Move,South,8005901
 Kodambakkam,2,2,950,1400,Individual,Resale,Above 20 years,House & Villas,0,Semi-Furnished,Ready to Move,West,5340967
-Adyar,2,2,1120,1419,Builder,New,0 to 5 years,House & Villas,2,Furnished,Ready to Move,South,19250000
+Adyar,2,2,1120,1419,Builder,New,0 to 5 years,House & Villas,2,Furnished,Ready to Move,South,32495370
 Korattur,2,2,1000,594,Individual,New,New Construction,House & Villas,1,Furnished,Ready to Move,East,5340967
 Velachery,2,2,963,843,Individual,New,New Construction,House & Villas,0,Semi-Furnished,Ready to Move,North,5340967
 Madipakkam,2,1,1290,1300,Individual,Resale,0 to 5 years,House & Villas,0,Furnished,Ready to Move,North,8220926
@@ -1252,9 +1252,9 @@ Adyar,3,3,2000,1248,Builder,New,New Construction,House & Villas,1,Furnished,Read
 Poonamale Highway,2,2,1000,756,Builder,New,Under Construction,House & Villas,1,Unfurnished,Under Construction,South,5340967
 Ashok Nagar,2,1,600,1303,Individual,Resale,0 to 5 years,House & Villas,1,Semi-Furnished,Ready to Move,South,3593155
 Ambattur,2,2,856,601,Individual,Resale,5 to 10 years,House & Villas,1,Unfurnished,Ready to Move,North East,4464305
-Sriperumbudur,1,1,190000,1156,Individual,New,New Construction,House & Villas,0,Unfurnished,Ready to Move,East,120000000
+Sriperumbudur,1,1,190000,1156,Individual,New,New Construction,House & Villas,0,Unfurnished,Ready to Move,East,930250000
 Salaigaram,3,2,1070,5400,Individual,New,New Construction,House & Villas,2,Furnished,Ready to Move,North,6798035
-Adambakkam,2,2,1098,950,Individual,Resale,0 to 5 years,House & Villas,1,Unfurnished,Ready to Move,South West,19250000
+Adambakkam,2,2,1098,950,Individual,Resale,0 to 5 years,House & Villas,1,Unfurnished,Ready to Move,South West,28000500
 Urapakkam,2,2,1046,777,Individual,New,Under Construction,House & Villas,1,Semi-Furnished,Under Construction,East,5340967
 Kulathur,2,2,731,1400,Builder,New,New Construction,House & Villas,1,Furnished,Ready to Move,South,3207974
 Mudichur,2,2,754,578,Individual,New,Under Construction,House & Villas,0,Semi-Furnished,Under Construction,East,3207974
@@ -1271,9 +1271,9 @@ Tambaram,2,2,1080,971,Individual,New,New Construction,House & Villas,0,Unfurnish
 Purasawalkam,2,2,920,1100,Individual,Resale,10 to 15 years,House & Villas,0,Semi-Furnished,Ready to Move,North,5340967
 Porur,2,2,150,1061,Individual,New,New Construction,House & Villas,3,Unfurnished,Ready to Move,East,1368843
 Perungudi,3,3,1498,1353,Individual,Resale,0 to 5 years,House & Villas,0,Unfurnished,Ready to Move,West,8220926
-Nungambakkam,3,2,5016,221,Individual,Resale,5 to 10 years,House & Villas,1,Furnished,Ready to Move,West,50000000
+Nungambakkam,3,2,5016,221,Individual,Resale,5 to 10 years,House & Villas,1,Furnished,Ready to Move,West,37492000
 Avadi Vellappanchavadi,3,3,1355,850,Builder,New,Under Construction,House & Villas,2,Unfurnished,Ready to Move,North,8220926
-Omr,3,3,2450,1334,Agent,Resale,15 to 20 years,House & Villas,1,Unfurnished,Ready to Move,North,6586250
+Omr,3,3,2450,1334,Agent,Resale,15 to 20 years,House & Villas,1,Unfurnished,Ready to Move,North,17500000
 Ambattur,2,1,730,53233,Individual,Resale,New Construction,House & Villas,0,Semi-Furnished,Ready to Move,East,3833339
 Omr,3,4,2046,476,Individual,New,New Construction,House & Villas,0,Semi-Furnished,Ready to Move,South East,12136114
 Perambur,2,2,859,800,Individual,Resale,New Construction,House & Villas,1,Unfurnished,Ready to Move,South,3492296
@@ -1325,7 +1325,7 @@ Kelambakkam Vandalur Highway,3,3,1129,650,Builder,New,Under Construction,House &
 Anna Nagar,2,2,1075,1120,Individual,Resale,15 to 20 years,House & Villas,0,Unfurnished,Ready to Move,North East,5340967
 Thiruporur,1,1,604,1075,Individual,Resale,Under Construction,House & Villas,1,Unfurnished,Under Construction,East,1974663
 Perungalathur,3,2,1064,1120,Builder,New,New Construction,House & Villas,6,Unfurnished,Ready to Move,North,6798035
-Anna Nagar,18,17,9870,775,Individual,New,New Construction,House & Villas,0,Unfurnished,Ready to Move,East,129960000
+Anna Nagar,18,17,9870,775,Individual,New,New Construction,House & Villas,0,Unfurnished,Ready to Move,East,80000000
 West Mambalam,3,2,1250,1400,Individual,New,0 to 5 years,House & Villas,0,Unfurnished,Ready to Move,East,8220926
 Kathirvedu,3,3,1104,1042,Individual,New,Under Construction,House & Villas,1,Semi-Furnished,Ready to Move,North,6798035
 Chrompet,3,2,1280,650,Builder,New,0 to 5 years,House & Villas,1,Unfurnished,Under Construction,North,8220926
@@ -1336,7 +1336,7 @@ Madipakkam,2,2,902,3000,Individual,Resale,0 to 5 years,House & Villas,0,Furnishe
 Kovur,1,1,660,1288,Individual,New,0 to 5 years,House & Villas,0,Semi-Furnished,Ready to Move,East,3207974
 Omr,2,2,1147,640,Individual,New,0 to 5 years,House & Villas,1,Unfurnished,Under Construction,South,5340967
 Pallavaram,2,2,1023,1746,Individual,Resale,10 to 15 years,House & Villas,1,Unfurnished,Ready to Move,East,5340967
-Adyar,2,2,1200,1513,Individual,New,Under Construction,House & Villas,2,Unfurnished,Ready to Move,East,19250000
+Adyar,2,2,1200,1513,Individual,New,Under Construction,House & Villas,2,Unfurnished,Ready to Move,East,28000500
 Maduravoyal,2,2,1024,860,Individual,New,New Construction,House & Villas,0,Semi-Furnished,Ready to Move,North,5340967
 Sithalapakkam,1,1,492,1500,Builder,New,Under Construction,House & Villas,5,Unfurnished,Under Construction,East,1974663
 Medavakkam,2,2,1137,700,Individual,Resale,Above 20 years,House & Villas,0,Semi-Furnished,Ready to Move,West,5340967
@@ -1534,11 +1534,11 @@ Madipakkam,3,2,1550,1082,Individual,Resale,0 to 5 years,House & Villas,1,Unfurni
 Chrompet,2,2,580,1250,Individual,Resale,5 to 10 years,House & Villas,1,Semi-Furnished,Ready to Move,North,3593155
 T Nagar,1,1,500,2100,Individual,Resale,0 to 5 years,House & Villas,3,Furnished,Ready to Move,East,1974663
 Madambakkam,2,2,890,594,Individual,New,15 to 20 years,House & Villas,1,Unfurnished,Ready to Move,East,4464305
-Alandur,2,2,1200,900,Individual,New,New Construction,House & Villas,3,Unfurnished,Ready to Move,North,19250000
+Alandur,2,2,1200,900,Individual,New,New Construction,House & Villas,3,Unfurnished,Ready to Move,North,28000500
 Kelambakkam,2,2,636,1312,Individual,Resale,Above 20 years,House & Villas,1,Semi-Furnished,Ready to Move,East,3207974
 Sithalapakkam,2,2,925,756,Builder,New,Under Construction,House & Villas,1,Furnished,Under Construction,North,5340967
 Villivakkam,2,2,1040,7710,Individual,New,0 to 5 years,House & Villas,10,Semi-Furnished,Ready to Move,North,5340967
-Kovilambakkam,3,3,65340,1700,Individual,New,Under Construction,House & Villas,2,Unfurnished,Ready to Move,East,91500000
+Kovilambakkam,3,3,65340,1700,Individual,New,Under Construction,House & Villas,2,Unfurnished,Ready to Move,East,120000000
 Saidapet,3,3,1650,1288,Individual,Resale,10 to 15 years,House & Villas,1,Semi-Furnished,Ready to Move,North,18004354
 Thiruninravur,2,2,735,5399,Individual,Resale,10 to 15 years,House & Villas,1,Semi-Furnished,Ready to Move,West,3207974
 Pallikaranai,2,2,915,1200,Individual,Resale,15 to 20 years,House & Villas,1,Semi-Furnished,Ready to Move,East,5340967
@@ -1550,7 +1550,7 @@ Anna Nagar,3,3,1460,663,Individual,Resale,10 to 15 years,House & Villas,1,Furnis
 Perambur,3,2,1310,1680,Individual,Resale,0 to 5 years,House & Villas,1,Furnished,Ready to Move,South,8220926
 Perugundi,2,2,865,1450,Individual,Resale,Above 20 years,House & Villas,2,Unfurnished,Under Construction,East,4464305
 Kodambakkam,1,1,500,1700,Individual,New,Type,House & Villas,3,Unfurnished,Ready to Move,West,2406982
-Adyar,2,2,1120,1200,Individual,New,15 to 20 years,House & Villas,2,Furnished,Ready to Move,South,19250000
+Adyar,2,2,1120,1200,Individual,New,15 to 20 years,House & Villas,2,Furnished,Ready to Move,South,28000500
 T Nagar,3,2,1350,633,Individual,Resale,Under Construction,House & Villas,1,Unfurnished,Under Construction,South,8220926
 Avadi Vaniyamchavadi,2,2,1250,2090,Individual,Resale,0 to 5 years,House & Villas,0,Furnished,Ready to Move,South,8220926
 Egmore,6,6,3000,1240,Individual,Resale,0 to 5 years,House & Villas,0,Furnished,Ready to Move,North,26074461
@@ -1628,7 +1628,7 @@ Sholinganallur,3,3,1754,3500,Individual,New,Under Construction,House & Villas,0,
 Villivakkam,3,2,1090,1600,Agent,New,New Construction,House & Villas,1,Semi-Furnished,Ready to Move,South,6798035
 Ambattur,3,2,1135,840,Individual,New,0 to 5 years,House & Villas,2,Semi-Furnished,Ready to Move,East,6798035
 Velachery,2,2,920,2400,Individual,Resale,5 to 10 years,House & Villas,0,Furnished,Ready to Move,South,5340967
-Urapakkam,2,2,2400,784,Individual,New,New Construction,House & Villas,0,Unfurnished,Ready to Move,South,480000
+Urapakkam,2,2,2400,784,Individual,New,New Construction,House & Villas,0,Unfurnished,Ready to Move,South,7938000
 Pallikaranai,2,2,1200,1050,Individual,Resale,10 to 15 years,House & Villas,0,Unfurnished,Ready to Move,East,5340967
 Maraimalai Nagar,3,3,1605,650,Individual,Resale,5 to 10 years,House & Villas,2,Semi-Furnished,Ready to Move,North,9168871
 Anna Nagar,3,3,1400,1746,Individual,New,Under Construction,House & Villas,2,Unfurnished,Ready to Move,East,8220926
@@ -1653,7 +1653,7 @@ Nanmangalam,2,2,1048,871,Individual,Resale,10 to 15 years,House & Villas,2,Semi-
 Kilpauk,3,3,1640,555,Individual,New,Under Construction,House & Villas,0,Semi-Furnished,Under Construction,North East,12136114
 Kelambakkam,2,2,372,589,Individual,New,New Construction,House & Villas,0,Semi-Furnished,Under Construction,East,980890
 Adambakkam,2,3,2525,793,Individual,New,0 to 5 years,House & Villas,0,Semi-Furnished,Ready to Move,South,24272824
-Villivakkam,2,2,2485,700,Builder,New,Under Construction,House & Villas,0,Semi-Furnished,Ready to Move,North,480000
+Villivakkam,2,2,2485,700,Builder,New,Under Construction,House & Villas,0,Semi-Furnished,Ready to Move,North,7938000
 Kelambakkam,3,3,1147,1050,Individual,Resale,0 to 5 years,House & Villas,0,Semi-Furnished,Ready to Move,North,6798035
 Thoraipakkam,2,2,450,1750,Individual,New,Under Construction,House & Villas,1,Semi-Furnished,Ready to Move,North East,1368843
 Omr,2,2,972,1550,Individual,Resale,0 to 5 years,House & Villas,1,Furnished,Ready to Move,South,5340967
@@ -1698,7 +1698,7 @@ Omr,3,3,1026,640,Individual,New,Under Construction,House & Villas,1,Semi-Furnish
 Kodambakkam,2,2,1020,1461,Individual,Resale,0 to 5 years,House & Villas,1,Furnished,Ready to Move,North,5340967
 Gowrivalkkam,2,2,886,417,Individual,Resale,Above 20 years,House & Villas,2,Unfurnished,Ready to Move,East,4464305
 Selaiyur,2,2,856,1350,Individual,Resale,0 to 5 years,House & Villas,0,Unfurnished,Ready to Move,West,4464305
-Chennai Central R S,15,15,10500,570,Individual,Resale,0 to 5 years,House & Villas,1,Semi-Furnished,Under Construction,South,209996682
+Chennai Central R S,15,15,10500,570,Individual,Resale,0 to 5 years,House & Villas,1,Semi-Furnished,Under Construction,South,1200000000
 Korattur,2,2,1800,1050,Individual,New,0 to 5 years,House & Villas,1,Semi-Furnished,Ready to Move,East,11605979
 Mogappair,2,2,920,1066,Builder,New,New Construction,House & Villas,2,Unfurnished,Ready to Move,East,5340967
 Villivakkam,2,2,904,3000,Individual,Resale,15 to 20 years,House & Villas,2,Semi-Furnished,Ready to Move,South,5340967
@@ -1903,7 +1903,7 @@ Medavakkam,2,2,2400,1317,Individual,New,New Construction,Penthouse,10,Semi-Furni
 Madipakkam,3,2,800,1247,Individual,New,New Construction,Penthouse,10,Unfurnished,Ready to Move,East,9003150
 Ashok Nagar,3,3,1950,697,Individual,Resale,0 to 5 years,Penthouse,0,Unfurnished,Ready to Move,North,13016328
 Madipakkam,3,2,1200,1247,Individual,New,New Construction,Penthouse,10,Unfurnished,Ready to Move,East,6798035
-Thiruvotriyur,1,1,2400,765,Agent,Resale,15 to 20 years,Flats,1,Furnished,Ready to Move,East,47485790
+Thiruvotriyur,1,1,2400,765,Agent,Resale,15 to 20 years,Flats,1,Furnished,Ready to Move,East,40008000
 Velachery,2,2,288,500,Individual,Resale,15 to 20 years,Flats,1,Semi-Furnished,Ready to Move,South,1368843
 Sriperumbudur,3,3,1300,1900,Individual,Resale,15 to 20 years,Flats,1,Semi-Furnished,Ready to Move,South,8220926
 Selaiyur,3,3,1241,680,Individual,Resale,5 to 10 years,Flats,2,Unfurnished,Ready to Move,West,8005901
@@ -1964,7 +1964,7 @@ Mogappair,2,2,710,602,Individual,Resale,15 to 20 years,Flats,3,Furnished,Ready t
 Choolaimedu,1,1,700,480,Builder,New,0 to 5 years,Flats,1,Furnished,Under Construction,North,3207974
 Chrompet,2,2,1085,986,Agent,Resale,15 to 20 years,Flats,2,Semi-Furnished,Ready to Move,North,5340967
 Gst Road,2,2,1079,100,Individual,New,0 to 5 years,Flats,1,Semi-Furnished,Ready to Move,North,5340967
-Purasawalkam,4,3,2400,1068,Builder,New,New Construction,Flats,1,Unfurnished,Ready to Move,North,6586250
+Purasawalkam,4,3,2400,1068,Builder,New,New Construction,Flats,1,Unfurnished,Ready to Move,North,17500000
 Avadi,2,2,590,392,Individual,Resale,0 to 5 years,Flats,1,Unfurnished,Ready to Move,East,3593155
 Chembakkam,2,2,667,950,Individual,Resale,Under Construction,Flats,1,Unfurnished,Ready to Move,East,3207974
 Thiruporur,2,2,917,605,Individual,Resale,Under Construction,Flats,0,Semi-Furnished,Ready to Move,East,5340967
@@ -2031,7 +2031,7 @@ Omr,2,2,1275,750,Individual,Resale,New Construction,Flats,2,Furnished,Ready to M
 Omr,2,2,1275,622,Individual,New,Under Construction,Flats,1,Unfurnished,Under Construction,East,8220926
 Omr,3,3,1472,278,Individual,Resale,5 to 10 years,Flats,1,Unfurnished,Ready to Move,East,8220926
 Mahalingapuram,2,2,1050,900,Individual,Resale,New Construction,Flats,0,Furnished,Ready to Move,East,5340967
-Adyar,3,3,1250,750,Individual,Resale,New Construction,Flats,0,Unfurnished,Ready to Move,East,13500000
+Adyar,3,3,1250,750,Individual,Resale,New Construction,Flats,0,Unfurnished,Ready to Move,East,23500000
 Omr,2,2,940,735,Builder,New,New Construction,Flats,1,Unfurnished,Ready to Move,East,5340967
 Rajakilpakkam,2,2,984,650,Individual,New,New Construction,Flats,1,Unfurnished,Ready to Move,North,5340967
 Ambattur,2,2,1100,911,Individual,New,0 to 5 years,Flats,1,Semi-Furnished,Ready to Move,East,5340967
@@ -2049,7 +2049,7 @@ Madipakkam,4,4,1650,2773,Builder,New,10 to 15 years,Flats,2,Unfurnished,Ready to
 Pallikaranai,2,2,1123,497,Individual,New,0 to 5 years,Flats,1,Unfurnished,Ready to Move,North,5340967
 T Nagar,2,2,795,605,Individual,Resale,Under Construction,Flats,0,Semi-Furnished,Ready to Move,East,3492296
 Oragadam,2,2,953,760,Individual,Resale,0 to 5 years,Flats,13,Furnished,Ready to Move,West,5340967
-Chennai Central R S,15,15,11000,350,Individual,Resale,10 to 15 years,Flats,0,Furnished,Ready to Move,South,209996682
+Chennai Central R S,15,15,11000,350,Individual,Resale,10 to 15 years,Flats,0,Furnished,Ready to Move,South,42500000
 Perambur,2,2,945,600,Individual,Resale,15 to 20 years,Flats,1,Semi-Furnished,Ready to Move,East,5340967
 Ashok Nagar,1,1,500,1600,Individual,Resale,0 to 5 years,Flats,6,Furnished,Ready to Move,South,2406982
 Medavakkam,3,3,1700,100,Individual,Resale,5 to 10 years,Flats,2,Semi-Furnished,Ready to Move,East,12136114
@@ -2094,7 +2094,7 @@ Rajakilpakkam,2,2,850,438,Individual,New,0 to 5 years,Flats,1,Semi-Furnished,Rea
 Ambattur,3,2,1210,850,Individual,Resale,0 to 5 years,Flats,1,Unfurnished,Ready to Move,East,6798035
 Chengalpattu,2,2,800,1300,Builder,New,10 to 15 years,Flats,1,Furnished,Under Construction,South,4464305
 Kotturpuram,2,2,1065,818,Individual,Resale,10 to 15 years,Flats,0,Semi-Furnished,Ready to Move,North West,5340967
-Omr,3,2,4573800,932,Builder,New,Under Construction,Flats,1,Unfurnished,Under Construction,East,120000000
+Omr,3,2,4573800,932,Builder,New,Under Construction,Flats,1,Unfurnished,Under Construction,East,43000000
 Mahalingapuram,3,3,1418,850,Individual,Resale,New Construction,Flats,0,Furnished,Ready to Move,East,8220926
 Manali,2,2,815,771,Builder,New,0 to 5 years,Flats,1,Unfurnished,Ready to Move,South,4464305
 Velachery,2,2,1125,390,Individual,Resale,Above 20 years,Flats,0,Semi-Furnished,Ready to Move,South,5340967
@@ -2115,7 +2115,7 @@ Perumbakkam,2,2,1100,470,Individual,Resale,0 to 5 years,Flats,1,Furnished,Ready 
 Thoraipakkam,3,3,2100,756,Individual,Resale,0 to 5 years,Flats,1,Unfurnished,Ready to Move,North,9168871
 Thoraipakkam,3,3,1354,526,Individual,Resale,0 to 5 years,Flats,1,Semi-Furnished,Ready to Move,North,8220926
 Royapettah,2,1,600,1092,Individual,Resale,0 to 5 years,Flats,3,Semi-Furnished,Ready to Move,East,1974663
-Valasaravakkam,2,2,2475,700,Individual,Resale,Under Construction,Flats,3,Unfurnished,Ready to Move,East,13964714
+Valasaravakkam,2,2,2475,700,Individual,Resale,Under Construction,Flats,3,Unfurnished,Ready to Move,East,27000000
 Mogappair West,3,3,1646,764,Individual,New,New Construction,Flats,1,Unfurnished,Ready to Move,North East,9168871
 Kovilambakkam,2,2,1402,628,Builder,New,0 to 5 years,Flats,1,Unfurnished,Under Construction,North,8220926
 Villivakkam,1,1,550,1000,Individual,Resale,0 to 5 years,Flats,5,Semi-Furnished,Ready to Move,North,1974663
@@ -2158,7 +2158,7 @@ Villivakkam,2,2,1050,620,Individual,New,Under Construction,Flats,3,Unfurnished,U
 Saidapet,3,2,1145,1068,Others,New,10 to 15 years,Flats,1,Unfurnished,Ready to Move,North,6798035
 Chengalpattu,3,3,1135,604,Builder,New,Above 20 years,Flats,1,Furnished,Under Construction,East,6798035
 Velachery,3,3,1600,900,Individual,Resale,5 to 10 years,Flats,2,Furnished,Ready to Move,East,9168871
-Mylapore,3,4,2409,1030,Builder,New,Under Construction,Flats,1,Unfurnished,Under Construction,North,6586250
+Mylapore,3,4,2409,1030,Builder,New,Under Construction,Flats,1,Unfurnished,Under Construction,North,17500000
 Ashok Nagar,3,3,1785,590,Individual,Resale,0 to 5 years,Flats,1,Furnished,Under Construction,South,13016328
 Velachery,2,2,1100,857,Individual,Resale,0 to 5 years,Flats,7,Semi-Furnished,Ready to Move,East,5340967
 Pammal,2,2,725,3634,Others,Resale,15 to 20 years,Flats,4,Semi-Furnished,Ready to Move,North,3207974
@@ -2211,7 +2211,7 @@ Pallikaranai,2,2,850,625,Individual,New,New Construction,Flats,1,Unfurnished,Rea
 Perambur,2,2,735,788,Individual,Resale,New Construction,Flats,-1,Unfurnished,Under Construction,East,3207974
 Perumbakkam,2,2,787,592,Individual,New,New Construction,Flats,1,Unfurnished,Ready to Move,South,3492296
 Abhiramapuram,5,4,3000,390,Individual,Resale,10 to 15 years,Flats,0,Furnished,Ready to Move,South,180000000
-Adyar,3,3,1300,1099,Builder,New,0 to 5 years,Flats,1,Semi-Furnished,Ready to Move,North,13500000
+Adyar,3,3,1300,1099,Builder,New,0 to 5 years,Flats,1,Semi-Furnished,Ready to Move,North,23500000
 Koyembedu,4,4,1786,1400,Agent,New,0 to 5 years,Flats,2,Unfurnished,Ready to Move,North,8722378
 Anna Nagar,1,1,380,780,Builder,New,0 to 5 years,Flats,1,Semi-Furnished,Ready to Move,North,980890
 Nanmangalam,1,1,498,720,Builder,New,0 to 5 years,Flats,1,Semi-Furnished,Ready to Move,North,1974663
@@ -2337,11 +2337,11 @@ Omr,2,2,1050,999,Individual,New,New Construction,Flats,6,Furnished,Ready to Move
 Kolathur,2,2,750,666,Individual,New,New Construction,Flats,1,Unfurnished,Under Construction,East,3207974
 Sithalapakkam,1,1,578,400,Individual,Resale,15 to 20 years,Flats,0,Semi-Furnished,Ready to Move,South,1974663
 Nungambakkam,3,3,2200,750,Builder,New,Under Construction,Flats,4,Unfurnished,Ready to Move,South East,9168871
-East Coast Road,4,3,5000,314,Individual,Resale,0 to 5 years,Flats,1,Unfurnished,Ready to Move,East,42000000
+East Coast Road,4,3,5000,314,Individual,Resale,0 to 5 years,Flats,1,Unfurnished,Ready to Move,East,50000000
 Adyar,4,4,2310,1516,Builder,New,10 to 15 years,Flats,1,Semi-Furnished,Under Construction,South,20030613
 Meenambakkam,2,2,1200,600,Individual,Resale,0 to 5 years,Flats,1,Unfurnished,Ready to Move,East,5340967
 Perumbakkam,3,2,1425,425,Builder,New,Under Construction,Flats,10,Furnished,Ready to Move,South East,8220926
-Chetpet,3,3,130680,5623,Individual,Resale,0 to 5 years,Flats,2,Furnished,Ready to Move,East,930250000
+Chetpet,3,3,130680,5623,Individual,Resale,0 to 5 years,Flats,2,Furnished,Ready to Move,East,43000000
 Pallikaranai,3,2,1353,800,Individual,Resale,0 to 5 years,Flats,1,Unfurnished,Ready to Move,East,8220926
 Mogappair,2,2,1130,865,Individual,Resale,15 to 20 years,Flats,1,Unfurnished,Ready to Move,North,5340967
 Madipakkam,1,1,561,547,Individual,Resale,Above 20 years,House & Villas,0,Furnished,Ready to Move,South,2356200
