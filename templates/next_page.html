@@ -955,12 +955,15 @@ $('.dropdown-menu li').click(function () {
         
     </div>
 
+        <input type="submit" value="Predict Price">
+    </form>
+
     {% if predicted_price %}
     <div id="predicted-price">
         <h2>Predicted Price: {{ predicted_price }}</h2>
     </div>
     {% endif %}
-    <button type="submit">Predict Price</button>
+    
 
 
     <script>
