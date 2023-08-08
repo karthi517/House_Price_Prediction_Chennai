@@ -10,12 +10,15 @@
   <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <img src="{{ url_for('static', filename='images/favicon.svg') }}" alt="My SVG Image">
+  
+  
 
   <!-- 
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
 
   <!-- 
     - google font link
@@ -51,9 +54,10 @@
           </li>
 
           <li>
-            <a href="https://www.google.com/maps/place/Chennai,+Tamil+Nadu,+India" target="_blank" class="header-top-link">
+            <a href="#" class="header-top-link">
               <ion-icon name="location-outline"></ion-icon>
-              <span>Chennai, Tamil Nadu, India</span>
+
+              <address>15/A, Nest Tower, NYC</address>
             </a>
           </li>
 
@@ -98,7 +102,8 @@
       <div class="container">
 
         <a href="#" class="logo">
-          <img src="./assets/images/logo.png" alt="Homeverse logo">
+          <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo Image">
+          
         </a>
 
         <nav class="navbar" data-navbar>
@@ -106,7 +111,8 @@
           <div class="navbar-top">
 
             <a href="#" class="logo">
-              <img src="./assets/images/logo.png" alt="Homeverse logo">
+              <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo Image">
+              
             </a>
 
             <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
@@ -142,7 +148,6 @@
                 <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
               </li>
 
-              
             </ul>
           </div>
 
@@ -178,8 +183,6 @@
 
       </div>
     </div>
-    
-
 
   </header>
 
@@ -208,53 +211,16 @@
             <h2 class="h1 hero-title">Find Your Dream House By Us</h2>
 
             <p class="hero-text">
-            Explore from Apartments, land, builder floors, villas and more...
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
             </p>
 
-            <button class="btn">
-              <a href="find.html" style="text-decoration: none; color: inherit;">Make An Enquiry</a>
-            </button>
-            
-            <script>
-              // Get references to the form elements and the predicted price section
-const locationSelect = document.getElementById('location');
-const bedroomsSelect = document.getElementById('bedrooms');
-const bathroomsSelect = document.getElementById('bathrooms');
-const areaInput = document.getElementById('area');
-const carpetAreaInput = document.getElementById('carpet-area');
-const ownershipSelect = document.getElementById('ownership');
-const saleTypeSelect = document.getElementById('sale-type');
-const ageSelect = document.getElementById('age');
-const plotTypeSelect = document.getElementById('plot-type');
-const floorSelect = document.getElementById('floor');
-const furnishingSelect = document.getElementById('furnishing');
-const statusSelect = document.getElementById('status');
-const facingSelect = document.getElementById('facing');
-const predictedPriceSection = document.getElementById('predicted-price-section');
-
-// Attach an event listener to the "Make An Enquiry" button
-const makeEnquiryButton = document.getElementById('make-enquiry-button');
-makeEnquiryButton.addEventListener('click', calculatePredictedPrice);
-
-// Function to calculate and display the predicted price
-function calculatePredictedPrice() {
-  // Perform your calculations here based on the selected options
-  // Replace this with your own logic to calculate the predicted price
-  const predictedPrice = "Your Calculated Predicted Price";
-
-  // Display the predicted price in the section
-  predictedPriceSection.innerHTML = `
-    <p class="predicted-price">Predicted Price: ${predictedPrice}</p>
-  `;
-}
-
-            </script>
-
+            <a href="{{ url_for('next_page') }}"><button class="btn">Make An Enquiry</button></a>
 
           </div>
 
           <figure class="hero-banner">
-            <img src="./assets/images/hero-banner.png" alt="Modern house model" class="w-100">
+            <img src="{{ url_for('static', filename='images/hero-banner.png') }}" alt="Modern house model" class="w-100">
+           
           </figure>
 
         </div>
@@ -272,9 +238,10 @@ function calculatePredictedPrice() {
         <div class="container">
 
           <figure class="about-banner">
-            <img src="./assets/images/about-banner-1.png" alt="House interior">
-
-            <img src="./assets/images/about-banner-2.jpg" alt="House interior" class="abs-img">
+            <img src="{{ url_for('static', filename='images/about-banner-1.png') }}" alt="House interior">
+            
+            <img src="{{ url_for('static', filename='images/about-banner-2.jpg') }}" alt="House interior" class="abs-img">
+            
           </figure>
 
           <div class="about-content">
@@ -326,7 +293,8 @@ function calculatePredictedPrice() {
             </ul>
 
             <p class="callout">
-              "Dedicated Relationship manager to help you sell your property faster"
+              "Enimad minim veniam quis nostrud exercitation
+              llamco laboris. Lorem ipsum dolor sit amet"
             </p>
 
             <a href="#service" class="btn">Our Services</a>
@@ -357,7 +325,8 @@ function calculatePredictedPrice() {
               <div class="service-card">
 
                 <div class="card-icon">
-                  <img src="./assets/images/service-1.png" alt="Service icon">
+                  <img src="{{ url_for('static', filename='images/service-1.png') }}" alt="Service icon" >
+                  
                 </div>
 
                 <h3 class="h3 card-title">
@@ -382,7 +351,8 @@ function calculatePredictedPrice() {
               <div class="service-card">
 
                 <div class="card-icon">
-                  <img src="./assets/images/service-2.png" alt="Service icon">
+                  <img src="{{ url_for('static', filename='images/service-2.png') }}" alt="Service icon">
+                 
                 </div>
 
                 <h3 class="h3 card-title">
@@ -407,7 +377,8 @@ function calculatePredictedPrice() {
               <div class="service-card">
 
                 <div class="card-icon">
-                  <img src="./assets/images/service-3.png" alt="Service icon">
+                  <img src="{{ url_for('static', filename='images/service-3.png') }}" alt="Service icon">
+                  
                 </div>
 
                 <h3 class="h3 card-title">
@@ -456,7 +427,8 @@ function calculatePredictedPrice() {
                 <figure class="card-banner">
 
                   <a href="#">
-                    <img src="./assets/images/property-1.jpg" alt="New Apartment Nice View" class="w-100">
+                    <img src="{{ url_for('static', filename='images//property-1.jpg') }}" alt="New Apartment Nice View" class="w-100">
+                    
                   </a>
 
                   <div class="card-badge green">For Rent</div>
@@ -534,7 +506,8 @@ function calculatePredictedPrice() {
                   <div class="card-author">
 
                     <figure class="author-avatar">
-                      <img src="./assets/images/author.jpg" alt="William Seklo" class="w-100">
+                      <img src="{{ url_for('static', filename='images/author.jpg') }}" alt="William Seklo" class="w-100">
+                      
                     </figure>
 
                     <div>
@@ -574,7 +547,8 @@ function calculatePredictedPrice() {
                 <figure class="card-banner">
 
                   <a href="#">
-                    <img src="./assets/images/property-2.jpg" alt="Modern Apartments" class="w-100">
+                    <img src="{{ url_for('static', filename='images/property-2.jpg') }}" alt="Modern Apartments" class="w-100">
+                    
                   </a>
 
                   <div class="card-badge orange">For Sales</div>
@@ -652,7 +626,8 @@ function calculatePredictedPrice() {
                   <div class="card-author">
 
                     <figure class="author-avatar">
-                      <img src="./assets/images/author.jpg" alt="William Seklo" class="w-100">
+                      <img src="{{ url_for('static', filename='images/author.jpg') }}" alt="William Seklo" class="w-100">
+                      
                     </figure>
 
                     <div>
@@ -692,7 +667,8 @@ function calculatePredictedPrice() {
                 <figure class="card-banner">
 
                   <a href="#">
-                    <img src="./assets/images/property-3.jpg" alt="Comfortable Apartment" class="w-100">
+                    <img src="{{ url_for('static', filename='images/property-3.jpg') }}" alt="Comfortable Apartment" class="w-100">
+                    
                   </a>
 
                   <div class="card-badge green">For Rent</div>
@@ -770,7 +746,8 @@ function calculatePredictedPrice() {
                   <div class="card-author">
 
                     <figure class="author-avatar">
-                      <img src="./assets/images/author.jpg" alt="William Seklo" class="w-100">
+                      <img src="{{ url_for('static', filename='images/author.jpg') }}" alt="William Seklo" class="w-100">
+                      
                     </figure>
 
                     <div>
@@ -810,7 +787,8 @@ function calculatePredictedPrice() {
                 <figure class="card-banner">
 
                   <a href="#">
-                    <img src="./assets/images/property-4.png" alt="Luxury villa in Rego Park" class="w-100">
+                    <img src="{{ url_for('static', filename='images/property-4.jpg') }}" alt="Luxury villa in Rego Park" class="w-100">
+                    
                   </a>
 
                   <div class="card-badge green">For Rent</div>
@@ -888,7 +866,8 @@ function calculatePredictedPrice() {
                   <div class="card-author">
 
                     <figure class="author-avatar">
-                      <img src="./assets/images/author.jpg" alt="William Seklo" class="w-100">
+                      <img src="{{ url_for('static', filename='images/author.jpg') }}" alt="William Seklo" class="w-100">
+                      
                     </figure>
 
                     <div>
@@ -1098,7 +1077,8 @@ function calculatePredictedPrice() {
               <div class="blog-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/blog-1.png" alt="The Most Inspiring Interior Design Of 2021" class="w-100">
+                  <img src="{{ url_for('static', filename='images/blog-1.png') }}" alt="The Most Inspiring Interior Design Of 2021" class="w-100">
+                  
                 </figure>
 
                 <div class="blog-content">
@@ -1150,7 +1130,8 @@ function calculatePredictedPrice() {
               <div class="blog-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/blog-2.jpg" alt="Recent Commercial Real Estate Transactions" class="w-100">
+                  <img src="{{ url_for('static', filename='images/blog-2.jpg') }}" alt="Recent Commercial Real Estate Transactions" class="w-100">
+                  
                 </figure>
 
                 <div class="blog-content">
@@ -1202,8 +1183,8 @@ function calculatePredictedPrice() {
               <div class="blog-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/blog-3.jpg" alt="Renovating a Living Room? Experts Share Their Secrets"
-                    class="w-100">
+                  <img src="{{ url_for('static', filename='images/blog-3.jpg') }}" alt="Renovating a Living Room? Experts Share Their Secrets" class="w-100">
+                  
                 </figure>
 
                 <div class="blog-content">
@@ -1303,13 +1284,12 @@ function calculatePredictedPrice() {
         <div class="footer-brand">
 
           <a href="#" class="logo">
-            <img src="./assets/images/logo-light.png" alt="Homeverse logo">
+            <img src="{{ url_for('static', filename='images/logo-light.png') }}" alt="Homeverse logo">
+            
           </a>
 
           <p class="section-text">
-            <h2 class="PifCarousal__heading" qa-id="PIF_heading">Upcoming Projects</h2>
-            <p class="PifCarousal__subHeading" qa-id="PIF_subHeading">Visit these projects and get early bird benefits </p>
-            <p>&nbsp;</p>
+            Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.
           </p>
 
           <ul class="contact-list">
@@ -1318,7 +1298,7 @@ function calculatePredictedPrice() {
               <a href="#" class="contact-link">
                 <ion-icon name="location-outline"></ion-icon>
 
-                <address>Chennai, Tamil Nadu, India</address>
+                <address>Brooklyn, New York, United States</address>
               </a>
             </li>
 
@@ -1492,7 +1472,8 @@ function calculatePredictedPrice() {
   <!-- 
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  
 
   <!-- 
     - ionicon link
