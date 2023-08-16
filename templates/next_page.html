@@ -721,7 +721,12 @@ h2 {
 
     {% if predicted_price %}
     <div id="predicted-price">
-        <h2>Predicted Price: {{ predicted_price }}</h2>
+        <h2>Predicted Price is : ₹ {{ predicted_price }} </h2>
+        <h2> 
+            <h1>Similar Flats</h1>
+            <!-- Render the DataFrame as an HTML table -->
+            <center>{{ recom | safe }}</center>
+        </h2>
     </div>
     {% endif %}
 
