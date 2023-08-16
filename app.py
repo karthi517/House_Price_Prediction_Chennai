@@ -9,8 +9,8 @@ app = Flask(__name__)
 @app.route("/")
 def Home():
     ld=pd.read_csv('dt.csv')
-    df=ld.sample(n=3)
-    return render_template('index.html',random_data=df)
+    df=ld.sample(n=4)
+    return render_template('index.html',property=df)
     #return render_template("index.html")
 
 # Load the Decision Tree model from a pickle file
@@ -117,7 +117,7 @@ def next_page():
 
         # Make prediction using the model
         predicted_price = model.predict(input_df)[0]
-        return render_template('next_page.html', predicted_price=np.round(predicted_price,decimals=2),recom=recomend.to_html(classes='table table-striped',index=False))
+        return render_template('next_page.html', predicted_price=np.round(predicted_price,decimals=2),recom=recomend.to_html(classes='table table-striped',index=False),rc=recomend)
         
     return render_template('next_page.html')
 
