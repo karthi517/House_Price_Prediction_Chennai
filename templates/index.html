@@ -10,7 +10,7 @@
   <!-- 
     - favicon
   -->
-  <img src="{{ url_for('static', filename='images/favicon.svg') }}" alt="My SVG Image">
+  <link rel="icon" href="{{ url_for('static', filename='images/favicon.svg') }}" type="image/svg+xml">
   
   
 
@@ -54,10 +54,10 @@
           </li>
 
           <li>
-            <a href="#" class="header-top-link">
+            <a href="https://www.google.com/maps/place/Chennai,+Tamil+Nadu,+India" target="_blank" class="header-top-link">
               <ion-icon name="location-outline"></ion-icon>
 
-              <address>15/A, Nest Tower, NYC</address>
+              <address>Chennai, Tamil Nadu, INDIA</address>
             </a>
           </li>
 
@@ -155,7 +155,7 @@
 
         <div class="header-bottom-actions">
 
-          <button class="header-bottom-actions-btn" aria-label="Search">
+          <button class="header-bottom-actions-btn" aria-label="Search" onclick="window.location.href='{{ url_for('next_page') }}';">
             <ion-icon name="search-outline"></ion-icon>
 
             <span>Search</span>
@@ -211,7 +211,7 @@
             <h2 class="h1 hero-title">Find Your Dream House By Us</h2>
 
             <p class="hero-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+              Buy, Sell, Rent Property in Chennai @ <strong>Homeverse</strong>. India's No 1 Property Site. Visit Now. Price & Trends Info. In-Depth Locality Info. Maximum Property Options. Property Advice. Choose Your Residential Property from 15 lac+ Property Options on <strong>Homeverse</strong>.
             </p>
 
             <a href="{{ url_for('next_page') }}"><button class="btn">Make An Enquiry</button></a>
@@ -293,8 +293,7 @@
             </ul>
 
             <p class="callout">
-              "Enimad minim veniam quis nostrud exercitation
-              llamco laboris. Lorem ipsum dolor sit amet"
+              "Find Your Dream Home!"
             </p>
 
             <a href="#service" class="btn">Our Services</a>
@@ -460,7 +459,7 @@
                 <div class="card-content">
 
                   <div class="card-price">
-                    <strong> ₹ :{{property.iloc[0,-1]}}</strong>
+                    <strong> ₹ :{{property.iloc[0,-1]}} </strong>
                   </div>
 
                   <h3 class="h3 card-title">
@@ -752,7 +751,7 @@
 
                     <div>
                       <p class="author-name">
-                        <a href="#">Chandrakant S</a>
+                        <a href="#">Chandrakant Yeshi</a>
                       </p>
 
                       <p class="author-title">Estate Agents</p>
@@ -1255,7 +1254,7 @@
               <p class="card-text">We can help you realize your dream of a new home</p>
             </div>
 
-            <button class="btn cta-btn">
+            <button class="btn cta-btn" onclick="window.location.href='{{ url_for('next_page') }}';">
               <span>Explore Properties</span>
 
               <ion-icon name="arrow-forward-outline"></ion-icon>
@@ -1289,7 +1288,7 @@
           </a>
 
           <p class="section-text">
-            Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.
+            Buy, Sell, Rent Property in Chennai @ <strong>Homeverse</strong>. India's No 1 Property Site. Visit Now. Price & Trends Info. In-Depth Locality Info. Maximum Property Options. Property Advice. Choose Your Residential Property from 15 lac+ Property Options on <strong>Homeverse</strong>.
           </p>
 
           <ul class="contact-list">
